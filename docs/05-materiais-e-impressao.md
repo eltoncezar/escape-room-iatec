@@ -61,10 +61,46 @@ TVs nas duas salas.
   (ex.: `SN-4210`, `SN-4276`, `SN-1270`, `SN-4270A`...)
 
 ## Peças para impressora 3D (opcionais)
+
+### Peças de cenário/apoio (as que já estavam previstas)
 - Suporte temático "bomba" para o `SN-4270`
 - Moldura com trilhos para alinhar transparências (P3/T1)
 - Porta-tokens com relevo `◆ ▲ ■` para o painel do GATE
 - Suportes/etiquetas de serial padronizados
+
+### 🧩 Puzzles mecânicos imprimíveis (SUGESTÕES — decidir depois se/onde usar)
+
+> A impressora 3D está subutilizada. Estas peças adicionam puzzles **táteis/mecânicos** que
+> papel e transparência não conseguem. **Preferir modelos "print-in-place"** (imprimem já
+> montados, sem cola nem parafuso) — muito melhores para o **reset o dia todo**.
+> Links e descrições parafraseadas para conformidade de licença.
+
+**Cryptex (cilindro de anéis com combinação → guarda um papel enrolado)**
+Bom candidato para guardar a **metade 1 da senha** ou um token do gate. Reset = reembaralhar
+os anéis e reenrolar o papel.
+- [Cryptex 3/4/5/6 anéis (escolhe a dificuldade) — Printables](https://www.printables.com/model/898103-cryptex)
+- [Cryptex sem ferramentas, anéis com clique/catraca — Printables](https://www.printables.com/model/991987-cryptex)
+- [Combination Safe 00 / Cryptex (5 ou 7 caracteres) — Cults3D](https://cults3d.com/en/3d-model/home/combination-safe-00-cryptex)
+
+**Puzzle box (caixa com compartimento secreto → guarda a chave/token)**
+Bom candidato para materializar o **GATE 3→1** (ex.: caixa de 3 movimentos ↔ 3 tokens).
+Reset = fechar a caixa de novo.
+- [Japanese Puzzle Box, print-in-place, solução de 3 movimentos — Printables](https://www.printables.com/model/1619322-japanese-puzzle-box-print-in-place-sliding-panel-m) *(testada em vários FDM; fácil = não trava a equipe)*
+- [Steampunk Gear Puzzle Box, trava de engrenagem — Printables](https://www.printables.com/model/1619511-steampunk-gear-puzzle-box-print-in-place-gear-lock) *(visual temático de maquinário/bomba)*
+- [Twisty Puzzle Box print-in-place — Printables](https://www.printables.com/model/345982-print-in-place-twisty-puzzle-box)
+- [Hexglyph, caixa de 6 discos — Printables](https://www.printables.com/model/844574-hexglyph-print-in-place-puzzle-box) *(mais difícil, se quiser subir o nível)*
+
+**Cadeado de combinação impresso (alternativa a comprar mais malas)**
+- [Combination Padlock v2 funcional — Printables](https://www.printables.com/model/682893-combination-padlock-v2)
+
+**Ideias de uso no fluxo (só sugestão, nada decidido):**
+- Cryptex guardando a **metade 1 da senha** (evolui o P1: descobrir a palavra → abrir → achar `RX7-`).
+- Puzzle box guardando a **chave da Sala 2** (evolui o P4/GATE: 3 tokens ↔ 3 movimentos da caixa).
+
+> ⚠️ **Calibração:** peças mecânicas print-in-place podem precisar de ajuste de tolerância/folga
+> para girar/deslizar liso. **Imprima 1 protótipo cedo e teste** antes de contar com a peça no
+> evento; se travar, ajuste escala/tolerância no fatiador. Modelos "testados em vários FDM"
+> reduzem esse risco.
 
 ## 📸 Plaquinhas de foto (para o fim)
 Imprima em papel firme (ou corte em MDF/3D com haste). Sugestões — misture sérias e engraçadas:
