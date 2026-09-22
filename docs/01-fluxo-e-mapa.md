@@ -67,7 +67,9 @@ P3 (máscara)  ─┘                              │
   │            desarmador desce ao térreo com a chave e entra na Sala 2
   │
   ├─ 8–18 min: desarmador resolve puzzles do térreo → COMBINAÇÃO do cofre → dita por rádio
-  │            (enquanto isso a equipe organiza páginas do manual e a metade 1)
+  │            ⚠️ JANELA DE ESPERA do salão → trilhas paralelas B1 + B2 (ver abaixo)
+  │            B1: os 4 ordenam o manual e definem especialistas (sempre)
+  │            B2: (opcional) resolvem o satélite "Protocolo de Emergência" → bônus de tempo
   │
   ├─ 15–22 min: salão abre o COFRE → METADE 2 + SERIAL completo
   │             equipe junta senha; dita SENHA + SERIAL por rádio
@@ -80,6 +82,32 @@ P3 (máscara)  ─┘                              │
 
 Como é **Zen**, não há "estouro": o cronômetro é a **nota**. O GM usa dicas para evitar que
 uma equipe fique travada tempo demais (ruim para o clima e para a fila do dia).
+
+## Anti-ociosidade: as trilhas paralelas B1 e B2
+
+**O problema:** enquanto o desarmador decifra a combinação do cofre no térreo (T1), os 4 do
+salão poderiam ficar parados esperando o cofre abrir. Para evitar isso, existem duas trilhas
+que **NÃO estão no caminho crítico** (não travam a chave, o cofre nem a senha):
+
+```
+Desarmador no T1 (combinação do cofre) ──────────► (dita por rádio)
+        │
+   Enquanto isso, os 4 no salão têm o que fazer:
+        ├─ B1 (sempre)   → ordenam páginas do manual + definem especialistas
+        └─ B2 (opcional) → satélite "Protocolo de Emergência" → BÔNUS de tempo
+```
+
+- **B1 — Preparação do manual (sempre presente).** O P2 entrega as páginas embaralhadas;
+  aqui os 4 **ordenam, destacam os 4 módulos e dividem quem cuida de qual**. Isso não trava
+  nada e **encurta o clímax**, porque chegam no desarme já sabendo o manual.
+- **B2 — Satélite opcional (bônus).** Um puzzle fora do caminho crítico cuja recompensa é
+  **−90s no tempo final** (vantagem no placar) **ou** **1 dica grátis** no clímax — a equipe
+  escolhe. Se ignorarem, **nada trava**. Detalhes e solução em `02-puzzles.md`.
+
+> Por que **não** antecipar demais a chave: adiantar a chave só transfere a ociosidade
+> (desarmador desce cedo e trabalha sozinho enquanto o salão espera). As trilhas B1/B2
+> resolvem a janela sem criar um buraco novo e sem perder o momento de convergência do GATE.
+> Mantenha a chave no ritmo do gate 3→1; só adiante se a equipe-teste do dia ainda ficar ociosa.
 
 ## Papéis (mantendo os 5 ativos)
 

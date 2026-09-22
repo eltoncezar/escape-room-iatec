@@ -30,6 +30,7 @@ ver doc 03) para o placar ser justo.
 | ~5 min | Montando tokens `◆ ▲ ■` | "Vocês têm 3 símbolos. Onde há um painel que os traduz?" |
 | ~8 min | Deveriam ter a **chave** (P4) | Dê 1 token→dígito do painel do GATE. |
 | ~10 min | Desarmador desceu e começa T1 | (GM térreo) "As etiquetas dos notebooks não são decorativas." |
+| ~10–18 min | **Salão esperando o cofre** | "Enquanto isso: organizem o manual (B1) e vejam o Protocolo (B2) pra ganhar tempo." |
 | ~15 min | Combinação do cofre ditada | "Desarmador, já passou os 4 dígitos pra cima?" |
 | ~18 min | Cofre aberto → metade 2 + serial | "Vocês têm as duas metades agora. Juntem e ditem." |
 | ~22 min | Achar o notebook certo | (GM térreo) "Compare o serial com a máscara que acharam lá em cima." |
@@ -44,6 +45,14 @@ Como é Zen, não há estouro; a dica evita que uma equipe empaque e atrase a fi
 
 Isso mantém o placar justo: quem pediu mais ajuda tem tempo maior. Registre as dicas na planilha.
 
+### Bônus do B2 "Protocolo de Emergência" (opcional)
+Se a equipe resolver o satélite B2 (cifra → **`SIMON`**), ela escolhe **uma** recompensa:
+- **−90s** no tempo final, **ou**
+- **1 dica grátis** no clímax (sem a penalidade de tempo acima).
+
+Registre o bônus na planilha (coluna própria). B2 é **opcional** e não trava o fluxo; serve
+para ocupar o salão durante a janela do T1 e recompensar quem for mais rápido.
+
 ## Cola de soluções (rápida)
 
 | Etapa | Valor |
@@ -53,6 +62,7 @@ Isso mantém o placar justo: quem pediu mais ajuda tem tempo maior. Registre as 
 | Combinação do cofre (T1, térreo) | **7315** |
 | Cofre (salão) | Metade 2 **`42QK`** + Serial **`SN-4270`** |
 | Senha do notebook | **`RX7-42QK`** (só no `SN-4270`) |
+| B2 — Protocolo (opcional) | cifra → **`SIMON`** → **−90s** ou **1 dica grátis** |
 | Bomba | 4 módulos vanilla, **Zen** (ver doc 03) |
 
 ## ✅ Checklist de RESET (dois andares)
@@ -63,6 +73,7 @@ Tenha **kits pré-montados** por sala. Faça na ordem.
 - [ ] Reesconder P1 (metade 1) e a lanterna UV; conferir se a marca UV está legível (retocar)
 - [ ] Reespalhar/embaralhar as páginas do manual (P2) nos esconderijos
 - [ ] Reesconder as 2 transparências do P3 (máscara `SN-••7•`)
+- [ ] Repor o cartaz-guia do B1 e o cartão + transparência/UV do B2 (Protocolo → `SIMON`)
 - [ ] Repor o painel do GATE e trancar a mala em **4826** com a chave da Sala 2 dentro
 - [ ] Fechar o **cofre** em **7315** com Metade 2 **`42QK`** + Serial **`SN-4270`** dentro
 - [ ] TV do salão espelhando o cronômetro do jogo · Rádio #1 carregado, canal certo
@@ -83,12 +94,13 @@ Tenha **kits pré-montados** por sala. Faça na ordem.
 
 ## 🏆 Placar do dia
 
-| Equipe | Início | Tempo final (Zen) | Strikes | Dicas (+tempo) | Tempo ajustado | Posição |
-|---|---|---|---|---|---|---|
-|  |  |  |  |  |  |  |
+| Equipe | Início | Tempo final (Zen) | Strikes | Dicas (+tempo) | Bônus B2 (−90s?) | Tempo ajustado | Posição |
+|---|---|---|---|---|---|---|---|
+|  |  |  |  |  |  |  |  |
 
-> **Tempo ajustado = tempo final do jogo + penalidades de dica.** É o número que rankeia.
-> (Strikes já entram no tempo do jogo pelo próprio Zen.)
+> **Tempo ajustado = tempo final do jogo + penalidades de dica − bônus B2 (se resgatado como tempo).**
+> É o número que rankeia. (Strikes já entram no tempo do jogo pelo próprio Zen.)
+> Se a equipe escolheu o B2 como "dica grátis" em vez de −90s, não subtraia tempo; só registre que a dica não penalizou.
 
 ## Variante "só treino" para aquecer
 Se uma equipe estiver muito insegura, deixe uma **mini-bomba Zen de 1 módulo** no salão antes

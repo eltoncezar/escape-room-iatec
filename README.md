@@ -34,7 +34,9 @@ Escape room corporativo com clímax em **Keep Talking and Nobody Explodes (KTANE
    nos dois sentidos.
 3. **Modo Zen = ninguém sai frustrado.** Sem explosão; a competição é por **tempo**. Ideal
    para novatos e para rodar o dia todo com um **placar**.
-4. **4 puzzles paralelos** mantêm as 4 pessoas do salão ocupadas o tempo todo.
+4. **4 puzzles paralelos + 2 trilhas anti-ociosidade** mantêm as 4 pessoas do salão ocupadas
+   o tempo todo — inclusive na janela em que esperam o desarmador achar a combinação do cofre
+   (trilhas **B1** = preparar o manual, **B2** = satélite opcional com bônus de tempo).
 
 ## Fluxo em uma imagem
 

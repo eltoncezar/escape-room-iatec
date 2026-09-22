@@ -84,6 +84,57 @@ que guarda a **chave física** da Sala 2.
 
 ---
 
+## Trilhas paralelas (anti-ociosidade) — feitas no salão durante o T1
+
+Estas duas trilhas ocupam os 4 do salão enquanto o desarmador decifra a combinação do cofre.
+**Nenhuma está no caminho crítico** — não travam chave, cofre nem senha.
+
+### 🧩 B1 — "Preparação do manual" (sempre presente)
+**Objetivo:** transformar as páginas soltas do P2 em um manual **pronto para o clímax**.
+
+**Montagem:**
+- É a continuação natural do P2: as páginas já foram achadas; agora a equipe precisa
+  **ordená-las**, **destacar os 4 módulos** (marca-texto já disponível) e **atribuir
+  especialistas** ("você é fios", "você é botão", "você é símbolos", "você é Simon").
+- Deixe no salão um **cartaz-guia**: *"Antes de a bomba armar: organizem o manual e escolham
+  quem cuida de cada módulo. Vocês vão agradecer."*
+
+**"Solução":** manual ordenado + 1 especialista por módulo definido. Não gera código —
+gera **prontidão** (encurta o desarme, o que melhora o tempo no placar).
+
+**Por que funciona:** trabalho útil e paralelo; não depende do cofre nem do térreo.
+
+---
+
+### 🧩 B2 — "Protocolo de Emergência" (satélite OPCIONAL → bônus de tempo)
+**Objetivo:** puzzle fora do caminho crítico cuja recompensa é vantagem no placar. Se a
+equipe ignorar, **nada trava**.
+
+**Montagem (nível médio, usa o que você tem):**
+- Um **"cartão de protocolo"** impresso + uma **transparência** (ou trecho em **UV**) que,
+  sobrepostos/revelados, mostram uma frase cifrada e uma tabela simples.
+- A cifra (ex.: substituição A1Z26 ou César) decifra para o **nome de um dos 4 módulos** da
+  bomba — ex.: **`SIMON`**.
+- O cartão instrui: *"Identificado o módulo, pré-estudem a página dele. Mostrem a palavra ao
+  GM para resgatar o bônus."*
+
+**Solução (exemplo):** frase decifrada = **`SIMON`**.
+
+**Recompensa (a equipe escolhe uma):**
+- **−90s** no tempo final (vantagem direta no placar), **ou**
+- **1 dica grátis** durante o clímax (sem a penalidade de tempo das dicas normais).
+
+**Duplo ganho embutido:** ao descobrir qual módulo aparece, a equipe **pré-estuda** essa
+página e desarma mais rápido — então o satélite ajuda no tempo real **além** do bônus.
+
+> ⚠️ Consistência: o módulo revelado no B2 (`SIMON`) **precisa** ser um dos 4 módulos
+> realmente configurados na bomba (ver doc 03). Se trocar os módulos, atualize a solução do B2.
+
+**Rampa p/ novato:** deixe a **tabela da cifra impressa junto** (não precisam decorar A1Z26),
+só aplicar. Assim é "médio" sem virar frustrante.
+
+---
+
 ## SALA 2 — REUNIÃO (térreo) — desarmador sozinho
 
 ### 🧩 T1 — "Diagnóstico" → COMBINAÇÃO DO COFRE (ditada por rádio ao salão)
@@ -119,6 +170,8 @@ que guarda a **chave física** da Sala 2.
 | P2 — Manual em pedaços | páginas ordenadas · token `▲` |
 | P3 — Máscara do serial | **`SN-••7•`** · token `■` |
 | P4 — GATE → mala | **4826** → chave da Sala 2 |
+| B1 — Preparação do manual | manual ordenado + especialistas (sem código) |
+| B2 — Protocolo (opcional) | cifra → **`SIMON`** → **−90s** ou **1 dica grátis** |
 | T1 — Diagnóstico (térreo) | combinação do cofre = **7315** |
 | Cofre (salão) | Metade 2 = **`42QK`** · Serial = **`SN-4270`** |
 | **Senha do notebook** | **`RX7-42QK`** (só no `SN-4270`) |

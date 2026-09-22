@@ -41,6 +41,16 @@ TVs nas duas salas.
 - Cartão: **`SERIAL COMPLETO: SN-4270`**
 - Bilhete: *"Juntem as metades e passem tudo ao desarmador."*
 
+### Salão — B1 "Preparação do manual" (trilha paralela)
+- Cartaz-guia: *"Antes de a bomba armar: organizem o manual e escolham quem cuida de cada módulo."*
+- (Usa as páginas do P2 + marca-textos; nada novo a esconder)
+
+### Salão — B2 "Protocolo de Emergência" (satélite opcional)
+- Cartão de protocolo + **transparência** (ou trecho **UV**) → frase cifrada + tabela da cifra
+- Cifra decifra para o nome de um módulo da bomba: **`SIMON`** (deve bater com o doc 03)
+- Instrução: *"Pré-estudem a página desse módulo. Mostrem a palavra ao GM para o bônus."*
+- Recompensa: **−90s** no tempo **ou** **1 dica grátis** (equipe escolhe)
+
 ### Térreo — T1 "Diagnóstico"
 - Cartaz com a regra + tabela/cifra → combinação do cofre **7315**
 - Etiquetas de manutenção nos notebooks (datas/status) coerentes com a regra
@@ -76,4 +86,4 @@ Imprima em papel firme (ou corte em MDF/3D com haste). Sugestões — misture s�
 ## Kit de reset (1 por sala, pré-montado)
 - Sacos etiquetados por puzzle com cartões/transparências/páginas
 - Caneta UV para retoque
-- Lista de combinações (só GM): mala **4826** · cofre **7315** · senha **`RX7-42QK`** · serial **`SN-4270`**
+- Lista de combinações (só GM): mala **4826** · cofre **7315** · senha **`RX7-42QK`** · serial **`SN-4270`** · B2 **`SIMON`**
