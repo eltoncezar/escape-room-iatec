@@ -1,65 +1,79 @@
-# 05 — Materiais e o que imprimir
+# 05 — Materiais, impressão e plaquinhas
 
 ## O que você já tem ✅
-- Lanterna UV
-- Impressora
-- Transparências
-- Impressora 3D
-- Malas com combinação numérica
-- Cofre
-- Notebook
-- Rádios comunicadores
+Lanterna UV · impressora · transparências · impressora 3D · mala com combinação · cofre ·
+notebooks (o `SN-4270` + 5–10 na mesa + demais para despistar) · rádios comunicadores ·
+TVs nas duas salas.
 
-## O que talvez precise comprar/providenciar 🛒
+## O que providenciar 🛒
 | Item | Uso | Obs. |
 |---|---|---|
-| **Caneta/tinta UV** | Escrever a METADE A (Puzzle B) | Essencial para o UV; testar antes que a lanterna revela |
-| Cópia impressa do **manual KTANE** (3–4x) | Bomba | Baixar PDF oficial e destacar os 4 módulos |
+| **Caneta/tinta UV** | Metade 1 (P1) e trechos do T1 | Testar com a lanterna antes |
+| Cópias do **manual KTANE** (dos 4 módulos) | P2 + clímax | Baixar PDF oficial, imprimir e destacar |
 | Marca-textos | Destacar seções do manual | Reduz sobrecarga p/ novatos |
-| Baterias/pilhas sobressalentes | Rádios + lanterna UV | Rodando o dia todo, vão acabar |
-| Fita/velcro | Fixar cartões e esconder pistas | Facilita reset |
-| Cronômetro visível (opcional) | Tensão | O próprio KTANE já mostra o tempo |
-| Chave física + porta com fechadura (Sala 2) | Gargalo A→Sala 2 | Ou um cadeado com chave dentro da mala |
+| **Adesivos de serial** p/ notebooks | T2 (achar o certo) | Padronizar; só 1 = `SN-4270` |
+| Baterias/pilhas sobressalentes | Rádios + lanterna UV | Rodando o dia todo |
+| Envelopes lacrados | Esconder páginas do manual (P2) | Facilita reset |
+| **HDMI splitter / transmissor de vídeo** | Espelhar timer nas 2 TVs | Ver doc 03 |
+| Fita/velcro | Fixar/esconder pistas | Facilita reset |
 
-## Folhas para imprimir (com o quê preencher)
+## O que imprimir (com o conteúdo)
 
-> Gere/edite estes materiais em qualquer editor. Aqui está o **conteúdo** de cada um.
+> Edite em qualquer editor. Aqui está o **conteúdo** de cada peça.
 
-### Puzzle A — "O Mapa Rasgado"
-- **4 cartões**, cada um com 1 ícone grande + 1 dígito:
-  - ☀ = 7
-  - 🌙 = 3
-  - ★ = 9
-  - ⚡ = 1
-- **1 pôster de ordem:** sequência `☀ 🌙 ★ ⚡` (→ combinação **7391**)
-- Bilhete dentro da mala: *"Metade do código nasce na luz que os olhos não veem."*
+### Salão — P1 "Guarde isto"
+- Cartão (parte em UV): **`METADE 1: RX7-`** + token **`◆`** + frase *"anote — vai fazer sentido no fim"*
 
-### Puzzle B — "Tinta Invisível" (escrever com caneta UV)
-- Texto UV: **`METADE A: RX7-`** + `▮▮ faltam 4`
+### Salão — P2 "Manual em pedaços"
+- Páginas do manual dos 4 módulos (Fios, Botão, Símbolos, Simon), numeradas no verso
+- Ao ordenar corretamente → revela token **`▲`**
 
-### Puzzle C — "Lógica do Servidor"
-- Cartão com as 4 pistas (ver `02-puzzles.md`) → resultado **24**
-
-### Puzzle D — "Sobreposição"
-- **2 transparências** que sozinhas parecem ruído; sobrepostas revelam **68**
+### Salão — P3 "Máscara do Serial"
+- **2 transparências** (ruído sozinhas; sobrepostas revelam) → **`SN-••7•`** + token **`■`**
 - Marcar cantos com ► para alinhamento
 
-### Conteúdo do cofre
-- Cartão: **`METADE B: 42QK`**
-- Bilhete: *"Junte as duas metades. Ao digitar, o relógio começa a correr."*
+### Salão — P4 "GATE / painel"
+- Pôster: `◆`=4 · `▲`=8 · `■`=2 · 4ª posição fixa =6 · ordem `◆ ▲ ■ (fixo)` → mala **4826**
+- Bilhete na mala: *"Desça. Você vai precisar de silêncio e de um bom rádio."*
 
-## Peças sugeridas para impressão 3D
-- Base/suporte temático para o notebook (visual de bomba)
-- Moldura com trilhos para alinhar as transparências (ajuda novatos no Puzzle D)
-- Porta-cartões com ícones em relevo (pistas táteis no Puzzle A)
-- Token/engrenagem decorativa que "destrava" a mala
+### Salão — conteúdo do COFRE
+- Cartão: **`METADE 2: 42QK`**
+- Cartão: **`SERIAL COMPLETO: SN-4270`**
+- Bilhete: *"Juntem as metades e passem tudo ao desarmador."*
 
-## Kit de reset (montar 1 por sala, deixar pronto)
-- Sacos plásticos etiquetados por puzzle com os cartões
+### Térreo — T1 "Diagnóstico"
+- Cartaz com a regra + tabela/cifra → combinação do cofre **7315**
+- Etiquetas de manutenção nos notebooks (datas/status) coerentes com a regra
+- (Opcional) trecho em UV ou transparência
+
+### Térreo — T2 adesivos de serial
+- Seriais nos 5–10 notebooks da mesa; **só 1 = `SN-4270`**; demais parecidos p/ despistar
+  (ex.: `SN-4210`, `SN-4276`, `SN-1270`, `SN-4270A`...)
+
+## Peças para impressora 3D (opcionais)
+- Suporte temático "bomba" para o `SN-4270`
+- Moldura com trilhos para alinhar transparências (P3/T1)
+- Porta-tokens com relevo `◆ ▲ ■` para o painel do GATE
+- Suportes/etiquetas de serial padronizados
+
+## 📸 Plaquinhas de foto (para o fim)
+Imprima em papel firme (ou corte em MDF/3D com haste). Sugestões — misture sérias e engraçadas:
+
+- "EU CONSEGUI SAIR 🎉"
+- "A CULPA É DELE 👉"
+- "EU SOU O CÉREBRO DA EQUIPE 🧠"
+- "DESARMEI E NÃO SUEI (menti) 💦"
+- "SOBREVIVI AO ESCAPE ROOM DA IATEC"
+- "TIME [___] — TEMPO: ______"  ← lousa/espaço para escrever o tempo do placar
+- "PERGUNTE-ME COMO ABRIR UM COFRE 🔐"
+- "EU SÓ FALEI NO RÁDIO 📻"
+- "BOMBA? QUE BOMBA? 💣"
+- "MVP DO DESARME 🏆"
+
+> Dica: uma plaquinha com **espaço em branco** para escrever o **tempo** vira recordação do
+> placar e incentiva a competição entre equipes ao longo do dia.
+
+## Kit de reset (1 por sala, pré-montado)
+- Sacos etiquetados por puzzle com cartões/transparências/páginas
 - Caneta UV para retoque
-- Lista de combinações impressa (só GM): mala **7391**, cofre **2468**, senha **`RX7-42QK`**
-
-## Configuração do notebook
-- KTANE instalado, **perfil/preset** da bomba salvo (4 módulos vanilla, 5:00, 3 strikes)
-- Tela inicial de "senha" preparada (pode ser uma imagem/lockscreen simples)
-- Ao digitar `RX7-42QK`, abrir o jogo e iniciar o Freeplay configurado
+- Lista de combinações (só GM): mala **4826** · cofre **7315** · senha **`RX7-42QK`** · serial **`SN-4270`**

@@ -1,85 +1,107 @@
 # 01 — Fluxo, mapa e papéis
 
-## Linha do tempo da experiência (alvo: 30–45 min)
+## Mapa dos dois andares
 
 ```
-0:00 ─ Briefing na Sala 1 (fora do relógio) — GM conta o enredo
-0:00 ─ [RELÓGIO INICIA] equipe entra na Sala 1
-        │
-        ├─ Puzzle A (chave da Sala 2)      ─┐ feitos em paralelo
-        ├─ Puzzle B (METADE A da senha)    ─┘
-        │
-~8-12min ─ Acham a CHAVE → abrem a Sala 2 (equipe se divide)
-        │
-        ├─ Sala 2: Puzzles C + D → combinação do cofre
-        ├─ Sala 1: continua decifrando pistas, passa dados por RÁDIO
-        │
-~20-25min ─ Cofre aberto → pega METADE B da senha
-        │
-        ├─ Junta METADE A (Sala 1) + METADE B (Sala 2) por RÁDIO
-        │
-~25min ─ Digita senha no notebook → BOMBA ARMA (KTANE)
-        │
-        ├─ 1 desarmador vê a tela / 3-4 no manual (podem estar em salas diferentes)
-        │
-~40min ─ Bomba desarmada 🎉  ou  BOOM 💥 (fim)
+╔═══════════════════════ 2º ANDAR ═══════════════════════╗
+║  SALA 1 — SALÃO (grande) — EQUIPE DE 4                  ║
+║                                                         ║
+║   P1 ▸ METADE 1 da senha (achada CEDO, sem saber p/quê) ║
+║   P2 ▸ páginas do MANUAL do KTANE (escondidas)          ║
+║   P3 ▸ máscara parcial do SERIAL (ex.: SN-••7•)         ║
+║        └─ P1+P2+P3 = GATE ─► P4                         ║
+║   P4 ▸ CHAVE física da Sala 2                           ║
+║                                                         ║
+║   COFRE ▸ guarda METADE 2 da senha + SERIAL completo    ║
+║           (combinação vem do TÉRREO, por rádio)         ║
+║   TV ▸ cronômetro do jogo (Zen)   ·   RÁDIO #1          ║
+╚═════════════════════════════════════════════════════════╝
+                         │  chave desce com o desarmador
+                         ▼
+╔═══════════════════════ TÉRREO ═════════════════════════╗
+║  SALA 2 — REUNIÃO (pequena, p/ 4) — DESARMADOR SOZINHO  ║
+║                                                         ║
+║   • 5–10 notebooks na mesa (só 1 é o certo; resto na    ║
+║     tela de senha p/ despistar)                         ║
+║   • Puzzles do térreo ▸ COMBINAÇÃO DO COFRE             ║
+║     (desarmador dita por rádio p/ o salão)              ║
+║   • Notebook certo é achado cruzando o SERIAL           ║
+║   TV ▸ mesmo cronômetro do jogo   ·   RÁDIO #2          ║
+╚═════════════════════════════════════════════════════════╝
 ```
 
-> **Regra de ouro do tempo:** os puzzles das salas devem consumir **no máx. ~25 min**.
-> A bomba tem seu próprio cronômetro (ver `03-bomba-ktane.md`). Some os dois e mantenha
-> o total dentro de 45 min. Use o sistema de dicas do GM para não estourar.
-
-## Mapa das salas
+## Grafo de dependências (a ordem é imposta pelo design)
 
 ```
-        SALA 1 — "A Base"                         SALA 2 — "O Cofre"
- ┌──────────────────────────────┐         ┌──────────────────────────────┐
- │  [Mesa] NOTEBOOK travado 🔒   │         │        COFRE 🔐              │
- │                               │         │                              │
- │  [Quadro/parede] cifra + UV   │  porta  │  [Estante] Puzzle C          │
- │                               │═══🔑═══►│  (lógica → 2 dígitos)        │
- │  Mala trancada 🧳 (Puzzle A)  │         │                              │
- │  → dentro: CHAVE Sala 2       │         │  [Caixa] Puzzle D            │
- │                               │         │  (transparências → 2 díg.)   │
- │  Pistas METADE A da senha     │         │  Cofre guarda: METADE B      │
- │  (só completáveis c/ Sala 2)  │         │                              │
- └──────────────────────────────┘         └──────────────────────────────┘
-   Rádio #1 fica aqui                        Rádio #2 fica aqui
+P1 (metade 1) ─┐
+P2 (manual)    ├─ GATE ─► P4 = CHAVE ─► abre SALA 2 (desarmador desce)
+P3 (máscara)  ─┘                              │
+                                              ▼
+                         Puzzles da Sala 2 ─► COMBINAÇÃO do cofre ──(rádio)──► salão
+                                              │
+                       salão abre COFRE ─► METADE 2 + SERIAL completo
+                                              │
+              METADE 1 + METADE 2 = SENHA ──(rádio)──► desarmador
+                                              │
+       desarmador usa SERIAL p/ achar o notebook certo ─► digita SENHA
+                                              │
+                                    BOMBA (KTANE Zen) ─► desarma ouvindo o manual (rádio)
+                                              │
+                                    tempo total ─► PLACAR
 ```
 
-## Por que o notebook fica na Sala 1
+> **Regras de sanidade do design (para não travar):**
+> - **P4 (chave) NÃO depende do cofre nem da Sala 2** — só dos 3 gates do salão. Assim a
+>   equipe sempre consegue abrir a Sala 2 sozinha.
+> - **A combinação do cofre está SÓ na Sala 2** — obriga o desarmador a ser útil (não fica
+>   só recebendo ordens).
+> - **A METADE 1 é achada antes da chave** e parece inútil no momento — recompensa quem anota.
 
-Mantém o clímax onde a equipe começou e cria um "vaivém": quem foi pra Sala 2 abrir o
-cofre precisa **voltar ou transmitir por rádio** a METADE B. No fim, todos convergem
-para o notebook. Se preferir separação máxima (desarmador isolado), veja a variante no
-roteiro do GM.
+## Linha do tempo (alvo: 30–45 min de jogo; tempo Zen = pontuação)
 
-## Papéis dos 5 jogadores (evitando ociosidade)
+```
+[fora do relógio] Briefing no salão — GM explica enredo, entrega rádios, define desarmador
+[RELÓGIO/Zen] equipe entra; a bomba (Zen) já pode iniciar junto (ver doc 03)
+  │
+  ├─ 0–10 min: 4 puzzles paralelos no salão (P1,P2,P3) → convergem no GATE → P4 = chave
+  │            desarmador desce ao térreo com a chave e entra na Sala 2
+  │
+  ├─ 8–18 min: desarmador resolve puzzles do térreo → COMBINAÇÃO do cofre → dita por rádio
+  │            (enquanto isso a equipe organiza páginas do manual e a metade 1)
+  │
+  ├─ 15–22 min: salão abre o COFRE → METADE 2 + SERIAL completo
+  │             equipe junta senha; dita SENHA + SERIAL por rádio
+  │
+  ├─ 20–25 min: desarmador acha o notebook certo → digita senha → BOMBA arma
+  │
+  └─ 25–40 min: desarme do KTANE (Zen), equipe lendo o manual por rádio
+              → tempo total travado no placar 🏆
+```
 
-Não distribua papéis fixos no início — deixe a equipe se auto-organizar, mas o GM deve
-**induzir** a divisão se travar. Estrutura ideal por fase:
+Como é **Zen**, não há "estouro": o cronômetro é a **nota**. O GM usa dicas para evitar que
+uma equipe fique travada tempo demais (ruim para o clima e para a fila do dia).
 
-| Fase | Distribuição sugerida |
+## Papéis (mantendo os 5 ativos)
+
+**Salão (4 pessoas)** — sugerir, não impor:
+| Papel | Faz |
 |---|---|
-| **Sala 1 (início)** | 2 no Puzzle A · 2 no Puzzle B · 1 "escrivão" anota tudo achado |
-| **Abriu Sala 2** | 2–3 vão para a Sala 2 (cofre) · 2 ficam na Sala 1 (pistas + rádio) |
-| **Cofre aberto** | Todos convergem info por rádio para montar a senha |
-| **Bomba (KTANE)** | **1 desarmador** (só ele vê a tela) · **3–4 no manual**, cada um responsável por 1–2 tipos de módulo |
+| **Rádio-líder** | Fala com o desarmador; centraliza pedidos e respostas |
+| **Puzzle A** | Toca P1 + parte do GATE |
+| **Puzzle B** | Toca P2 (manual) + P3 (máscara serial) |
+| **Escrivão/Manual** | Anota tudo (metade 1!) e, no clímax, vira leitor do manual do KTANE |
 
-### Dica de papéis no KTANE
-Divida o **manual** por módulo entre as pessoas: "você é o especialista em **fios**",
-"você em **botão**", "você em **teclado/símbolos**". Assim ninguém fica parado e a
-comunicação fica objetiva ("desarmador, que módulo é? fios? passa as cores").
+**Térreo (1 pessoa)** — o **desarmador**:
+- Resolve os puzzles do térreo (combinação do cofre), acha o notebook certo, digita a senha
+  e **desarma sozinho** ouvindo o manual pelo rádio. **Não** tem o manual em mãos.
 
-## Dependências entre puzzles (grafo)
+### Divisão do manual no clímax
+No salão, distribua o **manual** por módulo entre as 3–4 pessoas: "você é fios", "você é
+botão", "você é Simon". O desarmador diz o módulo e as cores; o especialista responde. Isso
+evita ociosidade e deixa a comunicação objetiva.
 
-```
-Puzzle A ──► CHAVE ──► abre SALA 2
-Puzzle B ──► METADE A da senha ─┐
-Puzzle C ─┐                     ├─► SENHA COMPLETA ──► arma BOMBA ──► KTANE
-Puzzle D ─┴► combinação COFRE ──► METADE B ─────────┘
-```
-
-Repare: **A** é o gargalo que libera a Sala 2. **C+D** são paralelos e ambos alimentam o
-cofre. **B** pode ser resolvido cedo, mas só vira senha útil quando o cofre entrega a
-METADE B — por isso a comunicação por rádio é inevitável.
+## Variantes rápidas
+- **Mais fácil:** máscara do serial (P3) já mostra quase todo o serial; combinação do cofre
+  com menos passos.
+- **Mais difícil:** exija que a equipe **ordene** as páginas do manual (P2) antes de conseguir
+  ler qualquer módulo no clímax.

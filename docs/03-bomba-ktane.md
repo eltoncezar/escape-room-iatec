@@ -1,68 +1,78 @@
-# 03 — A Bomba (Keep Talking and Nobody Explodes)
+# 03 — A Bomba (KTANE, modo Zen) + TVs + placar
 
-O KTANE roda no **notebook**. A senha (`RX7-42QK`) desbloqueia o sistema; nesse momento o
-GM (ou um atalho no desktop) **inicia a partida** — a bomba arma e o cronômetro começa.
+A bomba roda no **notebook certo** (`SN-4270`) no térreo. Ao digitar a senha `RX7-42QK`, o
+sistema destrava e a partida inicia.
 
-> Fonte de referência sobre criação de bombas/missões e módulos:
-> [Wiki oficial do modkit — Custom Missions](https://github.com/keeptalkinggame/ktanemodkit/wiki/4.-Custom-Missions)
-> e [KTANE Wiki — Modules](https://ktane.fandom.com/wiki/Modules).
+> Referências: [manual/regras oficiais](https://keeptalkinggame.com/) e
+> [criação de bombas/missões (modkit)](https://github.com/keeptalkinggame/ktanemodkit/wiki/4.-Custom-Missions).
 > *Conteúdo parafraseado para conformidade de licença.*
 
-## Princípio de calibragem (público novato)
+## Modo Zen — o que muda (importante)
 
-A maioria nunca jogou. O KTANE já é o clímax difícil — **não** empilhe dificuldade demais.
-A regra: a bomba deve ser **tensa mas vencível em ~2 tentativas de aprendizado**. Como você
-reseta e roda o dia todo, a primeira equipe do dia serve de teste — ajuste depois.
+No **modo Zen** a bomba **não explode** e o tempo é **progressivo** (conta para cima). É o
+modo relax/treino. Consequência de design que você escolheu de propósito:
+
+- **Não existe "perder".** Ninguém sai frustrado — ótimo para novatos.
+- **Cada strike aumenta o tempo total** (penalidade), em vez de matar.
+- **O objetivo vira o CRONÔMETRO:** menor tempo total = melhor → **premiação** no fim do dia.
+
+> Efeito prático: a tensão não vem do "vai explodir", e sim da **competição por tempo** e da
+> **dificuldade de comunicação** entre andares. O clima do dia é de **ranking**, não de sustos.
 
 ## Configuração recomendada da bomba
 
-Use o modo **Freeplay** (bomba avulsa) com estes parâmetros:
-
-| Parâmetro | Valor recomendado | Por quê |
+| Parâmetro | Valor | Por quê |
 |---|---|---|
-| **Tempo** | **5:00** (pode subir a 6:00 se travarem muito no teste) | Cabe no orçamento de 45 min total |
-| **Nº de módulos** | **4** | 1 por "especialista" do manual; 5+ vira caos p/ novatos |
-| **Módulos "needy"** | **0** (nenhum) | Needy exige atenção contínua; punitivo demais p/ 1ª vez |
-| **Strikes até explodir** | **3** (padrão) | Perdoa 2 erros de aprendizado |
+| **Modo** | **Zen** (tempo progressivo, sem explosão) | Definição do evento |
+| **Penalidade por strike** | tempo somado (padrão Zen) | Strike vira custo de tempo, não morte |
+| **Nº de módulos** | **4** | 1 por especialista do manual; 5+ vira caos p/ novatos |
+| **Módulos needy** | **0** | Atenção contínua é punitiva demais para 1ª vez |
 
-### Quais 4 módulos usar (os mais didáticos)
-Escolha entre os módulos **vanilla** (base do jogo), que têm manual claro:
-1. **Wires (Fios)** — o mais intuitivo, ótimo para o primeiro contato.
-2. **The Button (Botão)** — regras de cor + segurar/soltar; ensina comunicação.
-3. **Keypad (Símbolos)** — combina bem com "achar a ordem" no manual.
-4. **Simon Says** — sequência de cores; puro trabalho de comunicação.
+### Módulos sugeridos (didáticos, manual claro)
+1. **Wires (Fios)** — o mais intuitivo.
+2. **The Button (Botão)** — cor + segurar/soltar; ensina comunicação.
+3. **Keypad (Símbolos)** — combina com "achar a ordem".
+4. **Simon Says** — sequência de cores; puro trabalho de rádio.
 
-> Evite para novatos: **Morse Code**, **Wire Sequences**, **Mazes**, **Passwords** com
-> pressão de tempo e **Memory** (esse último é confiável mas exige muita disciplina de anotação).
+> Evite p/ novatos: Morse, Wire Sequences, Mazes, Memory, Passwords sob pressão.
 
-## O manual
+## Consistência: os módulos ↔ as páginas do manual (P2)
 
-- Baixe o **Bomb Defusal Manual** oficial (PDF) e **imprima 3–4 cópias** (uma por especialista).
-  Referência: [manual em PDF](https://bendavis007.github.io/PDFs/KeepTalkingAndNobodyExplodes-BombDefusalManual-v1.pdf).
-- **Destaque com marca-texto** só as seções dos 4 módulos escolhidos, para o novato não se perder no manual inteiro.
-- Deixe as cópias na **Sala 1** (onde fica o notebook). Se usar a variante "desarmador isolado",
-  o manual vai para a **outra** sala e a comunicação é 100% por rádio.
+Imprima e esconda no salão (P2) **apenas** as páginas dos 4 módulos acima. Se trocar um
+módulo, **troque a página** correspondente. Destaque com marca-texto para novato não se perder.
 
-## Como iniciar a bomba na hora certa
+## TVs — cronômetro espelhado nos dois andares
 
-1. Notebook fica na tela de "senha".
-2. Equipe digita `RX7-42QK`.
-3. Abre um atalho/tela que **inicia o Freeplay** já configurado (deixe um perfil salvo).
-4. Cronômetro corre → equipe corre para o manual e rádios.
+- Ambas as TVs (salão e térreo) mostram **o mesmo cronômetro do jogo** — é o tempo que vale
+  para o placar. Isso cria pressão compartilhada mesmo com a equipe separada por andares.
+- Opções de espelhamento (do mais simples ao mais elaborado):
+  - **HDMI/cast** da saída do notebook do jogo para as duas TVs (splitter ou transmissor).
+  - Uma **captura/stream** simples do timer para as duas telas.
+- **Fase 2 (se sobrar tempo):** trocar o feed por um **vídeo com partes de um puzzle** nas TVs
+  (ex.: um trecho que revela um token do gate ou uma dica da combinação do cofre).
 
-> **Dica de produção:** salve um **perfil/preset** da bomba no jogo para não reconfigurar a
-> cada reset. Assim o reset entre equipes é só "voltar ao menu e começar de novo".
+## Como iniciar a bomba junto com a sala
 
-## Regras de segurança do jogo (deixe visível)
+Você quis **iniciar a bomba quando a sala inicia** e usar **o contador do jogo como cronômetro
+oficial**. Duas formas:
 
-- A bomba é derrotada **desarmando todos os módulos** antes do tempo/limite de erros.
-- Cada erro = **1 strike**; **3 strikes** = explode. O timer também acelera após strikes.
-- Só o **desarmador** olha a tela; quem tem o manual **não pode ver a bomba** (regra clássica que força a comunicação).
+- **(Recomendada) Zen inicia no briefing:** o GM inicia a partida Zen ao liberar a equipe; o
+  timer sobe desde o começo, cobrindo puzzles + desarme. O "notebook certo" fica na tela de
+  senha até ser digitada `RX7-42QK`; o **timer do jogo já roda em background** e aparece nas TVs.
+- **(Alternativa) Zen inicia ao digitar a senha:** timer só começa quando o notebook é
+  destravado. Mais simples tecnicamente, mas o tempo dos puzzles não conta.
 
-## Plano B se estourar o tempo o dia todo
+> Escolha a que combina com sua premiação. Para "menor tempo total da experiência", use a
+> **recomendada** (timer desde o briefing). Deixe isso **fixo para todas as equipes** para o
+> placar ser justo.
 
-Se várias equipes explodirem:
-- Suba o tempo para **6:00**.
-- Reduza para **3 módulos**.
-- Troque **Simon Says** por outro **Wires** (dois módulos de fios são mais fáceis que Simon).
-- Permita que o desarmador dê **uma olhada rápida** no manual no começo (quebra a regra clássica, mas salva a diversão de iniciantes).
+## Reset da bomba entre equipes
+
+- Salve um **perfil/preset** com os 4 módulos e a config Zen para não reconfigurar.
+- Reset = voltar ao menu, recarregar o preset, deixar o `SN-4270` na tela de senha.
+- Zere/registre o cronômetro (anote o tempo final na planilha do placar — ver doc 04).
+
+## Regras que o desarmador deve saber
+- Ele **não** tem o manual; a equipe lê por rádio.
+- Cada erro = **strike** = **+tempo** (não explode). Vale mais ir com calma e confirmar cores.
+- Só ele vê a tela da bomba; a equipe **não** vê a bomba.

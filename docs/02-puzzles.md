@@ -1,101 +1,130 @@
 # 02 — Puzzles (montagem + soluções)
 
-> ⚠️ **Página de spoilers.** Contém todas as soluções. Só o Game Master deve ter acesso.
-> Nível calibrado como **médio/difícil**, mas com "rampas" para novatos (ver dicas no doc 04).
-> Os valores (senhas, combinações) são **exemplos prontos** — troque-os antes de operar.
-
-Usa só o que você tem: **lanterna UV, impressora, transparências, impressora 3D, malas com
-combinação numérica, cofre, notebook, rádios**.
+> ⚠️ **Página de spoilers — só o Game Master.** Nível médio/difícil com rampas para novatos.
+> Valores (senhas, combinações, serial) são **exemplos prontos** — troque antes de operar.
+> Materiais usados: **lanterna UV, impressora, transparências, impressora 3D, mala com
+> combinação, cofre, notebooks, rádios, TVs**.
 
 ---
 
-## SALA 1
+## SALA 1 — SALÃO (2º andar) — 4 puzzles paralelos
 
-### 🧩 Puzzle A — "O Mapa Rasgado" → CHAVE da Sala 2
-**Objetivo:** abrir a **mala com combinação numérica** que guarda a chave física da Sala 2.
+Os **3 primeiros** são **gates**: cada um produz um resultado; os três juntos abrem o
+**Puzzle 4**, que dá a **chave física da Sala 2**.
+
+### 🧩 P1 — "Guarde isto" → METADE 1 da senha
+**Objetivo:** achar cedo a **metade 1** da senha do notebook, **sem** saber ainda pra que serve.
 
 **Montagem:**
-- Espalhe pela Sala 1 **4 cartões impressos**, cada um com um dígito grande e um pequeno ícone/coordenada.
-- Um **quadro/pôster** na parede indica a **ordem** de leitura dos ícones (ex.: "☀ 🌙 ★ ⚡" ).
-- Cada cartão associa um ícone a um dígito.
+- Uma etiqueta/cartão discreto em objeto de uso (verso de um quadro, dentro de uma caneca,
+  sob o teclado de um PC do salão) com: **`METADE 1: RX7-`** e um ícone-token `◆` (usado no GATE).
+- Escreva parte com **caneta UV** para exigir a lanterna (esconda a lanterna dentro da mala do P3 ou em gaveta).
 
-**Solução (exemplo):**
-- ☀=7, 🌙=3, ★=9, ⚡=1 → combinação da mala = **7391**.
-- Dentro da mala: a **chave física** da porta da Sala 2 + um bilhete: *"Metade do código nasce na luz que os olhos não veem"* (dica para o Puzzle B/UV).
+**Solução:** METADE 1 = **`RX7-`**. Token do gate = `◆`.
 
-**Por que médio/difícil:** exige juntar objetos espalhados + inferir a ordem pelo pôster (2 passos).
+**Rampa p/ novato:** deixe no cartão a frase *"anote — vai fazer sentido no fim"*.
 
 ---
 
-### 🧩 Puzzle B — "Tinta Invisível" → METADE A da senha do notebook
-**Objetivo:** revelar a **METADE A** (primeiros caracteres) da senha do notebook.
+### 🧩 P2 — "Manual em pedaços" → páginas do MANUAL + token do gate
+**Objetivo:** montar as páginas do **manual do KTANE** (só os módulos usados) e obter um token.
 
 **Montagem:**
-- Escreva com **caneta UV** parte da senha em um local não óbvio (verso de um quadro, dentro de uma gaveta, embaixo da mesa do notebook).
-- A **lanterna UV** fica escondida/protegida — a equipe precisa achá-la (pode estar dentro da mala do Puzzle A, reforçando a ordem A→B).
-- O texto UV mostra: **`METADE A: RX7-`** e um símbolo `▮▮` indicando que **faltam 4 caracteres** (que virão do cofre).
+- Imprima as seções do manual dos **módulos escolhidos** (ver doc 03) e **espalhe/embaralhe**
+  as páginas pelo salão (algumas dentro de envelopes lacrados, uma atrás de um quadro, etc.).
+- Numere o **verso** das páginas com um símbolo; a **ordem correta** revela o token `▲`.
+- (Opcional difícil) uma página só é lida com a **lanterna UV** ou sobrepondo 2 transparências.
 
-**Solução:** METADE A = **`RX7-`** (a senha completa será `RX7-42QK`, ver Puzzle no cofre).
-
-**Por que médio/difícil:** a pista fica invisível até acharem a lanterna; força procura ativa.
-
----
-
-## SALA 2
-
-### 🧩 Puzzle C — "Lógica do Servidor" → 2 primeiros dígitos do cofre
-**Objetivo:** deduzir 2 dígitos por um mini enigma de lógica (estilo Einstein).
-
-**Montagem:** um cartão impresso com 4 pistas sobre 4 "servidores" (A, B, C, D) e suas posições/cores. A equipe deduz uma ordem, e a **posição de um servidor específico** dá os dígitos.
-
-**Pistas (exemplo):**
-1. O servidor **vermelho** não está nas pontas.
-2. **A** está imediatamente à esquerda do **azul**.
-3. **D** é o último.
-4. O **verde** é o primeiro.
-
-**Solução:** ordem = Verde(A?) … deduz-se **ordem A, C(vermelho), B(azul), D**.
-Os 2 dígitos = **posição do servidor vermelho na fila × 10 + nº de servidores** → **24**
-(*ajuste o mapeamento como preferir; o importante é dar 2 dígitos fixos, ex. `24`*).
+**Solução:** equipe reúne todas as páginas + descobre a ordem → token do gate = `▲`.
+As páginas do manual ficam com a equipe para o clímax.
 
 ---
 
-### 🧩 Puzzle D — "Sobreposição" → 2 últimos dígitos do cofre
-**Objetivo:** obter 2 dígitos sobrepondo **transparências**.
+### 🧩 P3 — "Máscara do Serial" → dica parcial do serial + token do gate
+**Objetivo:** revelar uma **máscara** do serial do notebook certo (incompleta de propósito)
+e um token.
 
 **Montagem:**
-- Imprima **2 transparências**: cada uma sozinha parece ruído/linhas aleatórias.
-- Sobrepostas **na orientação certa** (marque cantos com ► para alinhar), revelam **2 dígitos grandes**.
-- Esconda as transparências em locais diferentes da Sala 2 para forçar busca.
+- **2 transparências**: sozinhas parecem ruído; sobrepostas (alinhe pelos cantos ►) revelam:
+  **`SN-••7•`** (só 1 dígito visível; os `•` são desconhecidos) e o token `■`.
+- Esconda as transparências em locais diferentes do salão.
 
-**Solução (exemplo):** dígitos revelados = **68**.
+**Solução:** máscara = **`SN-••7•`**; token do gate = `■`. *(O serial completo vem só do cofre.)*
 
----
-
-### 🔐 O COFRE → METADE B da senha
-**Combinação = Puzzle C + Puzzle D = `2468`** (exemplo).
-
-**Dentro do cofre:**
-- Cartão impresso: **`METADE B: 42QK`**
-- Bilhete: *"Junte as duas metades. Ao digitar, o relógio começa a correr."*
-
-**Senha completa do notebook = METADE A + METADE B = `RX7-42QK`.**
+**Para que serve a máscara:** no térreo, ajuda o desarmador a **eliminar** notebooks cujo
+serial não bate com o dígito conhecido — acelera quando o serial completo chegar.
 
 ---
 
-## Peças opcionais em impressora 3D (deixa o cenário melhor)
-- **Suporte/base temática** para o notebook (visual de "bomba").
-- **Engrenagem/token** que encaixa em algo para "destravar" fisicamente a mala.
-- **Porta-cartões** com ícones em relevo para o Puzzle A (dá pistas táteis a iniciantes).
-- **Alinhador de transparências** (moldura com trilhos) para facilitar o Puzzle D.
+### 🧩 P4 — "O GATE" → CHAVE da Sala 2
+**Objetivo:** combinar os 3 tokens (`◆ ▲ ■`) para abrir a **mala com combinação numérica**
+que guarda a **chave física** da Sala 2.
 
-## Resumo das soluções (cola do GM)
+**Montagem:**
+- Um **painel/pôster** no salão mapeia cada token a um dígito e define a ordem:
+  - `◆` = 4 · `▲` = 8 · `■` = 2 · e uma 4ª posição fixa impressa no painel = 6
+- Ordem impressa no painel: `◆ ▲ ■ (fixo)` → combinação da mala = **4826**.
+- Dentro da mala: **chave física da Sala 2** + bilhete: *"Desça. Você vai precisar de silêncio
+  e de um bom rádio."* (e, se quiser, a lanterna UV do P1).
 
-| Puzzle | Resultado |
+**Solução:** mala = **4826** → chave da Sala 2.
+
+**Por que é o gate:** sem os 3 tokens a equipe não sabe a combinação → obriga terminar P1+P2+P3.
+
+---
+
+### 🔐 COFRE (no salão) → METADE 2 + SERIAL completo
+- **Combinação do cofre vem da Sala 2** (o desarmador dita por rádio). Ver puzzles do térreo.
+- **Dentro do cofre:**
+  - Cartão: **`METADE 2: 42QK`**
+  - Cartão: **`SERIAL COMPLETO: SN-4270`** (bate com a máscara `SN-••7•` do P3)
+  - Bilhete: *"Juntem as metades e passem tudo ao desarmador. O relógio não perdoa lentidão."*
+
+**Senha completa do notebook = METADE 1 + METADE 2 = `RX7-42QK`.**
+
+---
+
+## SALA 2 — REUNIÃO (térreo) — desarmador sozinho
+
+### 🧩 T1 — "Diagnóstico" → COMBINAÇÃO DO COFRE (ditada por rádio ao salão)
+**Objetivo:** o desarmador deduz os 4 dígitos da combinação do cofre lá de cima.
+
+**Montagem (escolha 1–2 técnicas, nível médio/difícil):**
+- **Etiquetas de manutenção** nos notebooks com "datas de serviço" e "status"; um cartaz na
+  parede diz a regra (ex.: *"some os notebooks marcados 'OK' na coluna B"*).
+- **Cifra/tabela** impressa que converte um código do cartaz em 4 dígitos.
+- (Opcional) parte revelada com **lanterna UV** ou **transparência** (você as tem).
+
+**Solução (exemplo):** combinação do cofre = **7315** → desarmador dita por rádio.
+
+> O desarmador **não** abre o cofre (o cofre está no salão). Ele só **descobre e transmite**
+> a combinação. Quem abre é a equipe. Isso é o núcleo da dependência por rádio.
+
+### 🖥️ T2 — "O notebook certo" (achado com o SERIAL)
+- Depois que o cofre é aberto no salão, a equipe dita **`SERIAL: SN-4270`** por rádio.
+- Os notebooks da mesa estão **adesivados com seriais** visíveis (5–10 na mesa; só 1 = `SN-4270`).
+- A **máscara** `SN-••7•` (P3) já tinha ajudado a eliminar candidatos.
+- Desarmador acha o `SN-4270`, digita **`RX7-42QK`** → **a bomba (Zen) arma**.
+
+> Os outros notebooks ficam na **tela de senha** para despistar; a senha `RX7-42QK` **só
+> funciona no `SN-4270`**.
+
+---
+
+## Cola de soluções (rápida — GM)
+
+| Etapa | Valor |
 |---|---|
-| A — Mapa Rasgado | Mala = **7391** → chave da Sala 2 |
-| B — Tinta Invisível (UV) | METADE A = **`RX7-`** |
-| C — Lógica do Servidor | 2 dígitos = **24** |
-| D — Sobreposição | 2 dígitos = **68** |
-| Cofre (C+D) | **2468** → METADE B = **`42QK`** |
-| **Senha do notebook** | **`RX7-42QK`** → arma a bomba |
+| P1 — Metade 1 (UV) | **`RX7-`** · token `◆` |
+| P2 — Manual em pedaços | páginas ordenadas · token `▲` |
+| P3 — Máscara do serial | **`SN-••7•`** · token `■` |
+| P4 — GATE → mala | **4826** → chave da Sala 2 |
+| T1 — Diagnóstico (térreo) | combinação do cofre = **7315** |
+| Cofre (salão) | Metade 2 = **`42QK`** · Serial = **`SN-4270`** |
+| **Senha do notebook** | **`RX7-42QK`** (só no `SN-4270`) |
+
+## Peças opcionais em impressora 3D
+- **Suporte temático** para o notebook certo (visual de "bomba") — ajuda a destacá-lo pro GM.
+- **Moldura com trilhos** para alinhar as transparências (P3 e T1).
+- **Porta-tokens** com relevo `◆ ▲ ■` para o painel do GATE (pistas táteis).
+- **Etiquetas/suportes de serial** padronizados para os notebooks da mesa.

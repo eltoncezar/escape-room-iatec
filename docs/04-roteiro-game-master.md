@@ -1,91 +1,95 @@
 # 04 — Roteiro do Game Master (GM)
 
-O GM controla o tempo, dá dicas e **reseta a sala** entre equipes. Rode o dia todo,
-uma equipe por vez.
+Escape room em **dois andares**, **uma equipe por vez**, rodando o dia todo. Modo **Zen**:
+sem explosão, **menor tempo vence** → premiação. Idealmente **2 GMs**: um no salão (2º andar),
+um no térreo (Sala 2), comunicando-se por um canal de rádio separado do dos jogadores.
 
-## Antes de cada equipe: briefing (fora do relógio)
+## Antes de cada equipe: briefing (no salão, fora da pontuação)
 
-Leia algo como:
+> "Um ex-colaborador deixou um **notebook armado** na sala de manutenção do térreo, escondido
+> entre vários notebooks iguais. Vocês são o esquadrão anti-bombas. **Um de vocês** vai descer
+> sozinho até o térreo para achar e desarmar o notebook certo. Os **outros quatro** ficam aqui
+> no salão caçando as pistas. Vocês estão em **andares diferentes** — só se falam pelo **rádio**.
+> A bomba está em modo de treino: **não explode**, mas cada erro e cada minuto **contam no seu
+> tempo**. Vence a equipe que desarmar no **menor tempo**. Escolham o desarmador... agora."
 
-> "Um ex-colaborador deixou um **notebook armado** escondido na empresa. O sistema está
-> bloqueado e, ao destravar, uma bomba lógica começa a contagem. Vocês são o esquadrão
-> anti-bombas. Vasculhem as salas, achem as pistas, abram o cofre, montem a senha e
-> **desarmem a bomba** antes do tempo zerar. Vocês têm rádios — usem. Boa sorte."
+Anuncie as regras:
+1. Nada de força bruta em cadeados/cofre/mala/notebooks.
+2. **Só o desarmador** vê a tela da bomba; quem tem o manual **não** desce.
+3. Podem pedir dicas (custam tempo — ver abaixo).
+4. O **cronômetro nas TVs é a sua pontuação.**
 
-Regras que você anuncia:
-1. Nada de força bruta em cadeados/cofre/mala (senão trava de vez).
-2. Podem pedir **até 3 dicas**; cada dica pode custar tempo (opcional).
-3. Na bomba: **só o desarmador vê a tela**; quem tem o manual não olha o notebook.
+**Defina o início do timer igual para todas as equipes** (recomendado: inicia no briefing —
+ver doc 03) para o placar ser justo.
 
 ## Timeline e gatilhos de dica
 
-| Tempo | Situação esperada | Se estiverem atrasados, dica sutil |
+| Tempo | Esperado | Dica sutil se travar |
 |---|---|---|
-| 0–3 min | Explorando a Sala 1 | "Reparem no que está espalhado — e no que indica **ordem**." |
-| ~5 min | Trabalhando Puzzle A e B | "A lanterna some por um motivo. Onde algo trancado poderia guardá-la?" |
-| ~10 min | Deveriam ter a **chave** | Dê o valor de 1 ícone do Puzzle A. |
-| ~12 min | Abriram Sala 2, dividiram | "Alguém deveria estar **no rádio** agora." |
-| ~18 min | Trabalhando o cofre (C+D) | Confirme a ordem de 1 servidor (C) ou o alinhamento (D). |
-| ~22 min | Cofre deveria abrir | Dê os 2 primeiros dígitos da combinação. |
-| ~25 min | Montando a senha | "Vocês têm duas metades. Juntem por rádio." |
-| ~25–40 min | **BOMBA** | Dicas de comunicação, não de solução: "digam a **cor** dos fios em voz alta". |
+| 0–3 min | Explorando o salão, achando P1/P2/P3 | "Reparem no que parece inútil agora — anotem." |
+| ~5 min | Montando tokens `◆ ▲ ■` | "Vocês têm 3 símbolos. Onde há um painel que os traduz?" |
+| ~8 min | Deveriam ter a **chave** (P4) | Dê 1 token→dígito do painel do GATE. |
+| ~10 min | Desarmador desceu e começa T1 | (GM térreo) "As etiquetas dos notebooks não são decorativas." |
+| ~15 min | Combinação do cofre ditada | "Desarmador, já passou os 4 dígitos pra cima?" |
+| ~18 min | Cofre aberto → metade 2 + serial | "Vocês têm as duas metades agora. Juntem e ditem." |
+| ~22 min | Achar o notebook certo | (GM térreo) "Compare o serial com a máscara que acharam lá em cima." |
+| ~25 min+ | **BOMBA (Zen)** | Dicas de **comunicação**, não de solução: "digam a **cor** e a **posição** dos fios". |
 
-> Ajuste os tempos ao ritmo real. Como você roda o dia todo, calibre pela 1ª equipe.
+Como é Zen, não há estouro; a dica evita que uma equipe empaque e atrase a fila do dia.
 
-## Sistema de 3 dicas (sugestão)
+## Sistema de dicas (Zen = custo em tempo)
+- **Dica 1 (leve):** onde olhar → **+30s** no tempo.
+- **Dica 2 (média):** o método → **+60s**.
+- **Dica 3 (forte):** parte do resultado → **+120s**.
 
-- **Dica 1 (leve):** aponta *onde* olhar.
-- **Dica 2 (média):** revela *o método* (ex.: "é sobreposição de transparências").
-- **Dica 3 (forte):** entrega parte do *resultado* (ex.: 2 dígitos do cofre).
-
-Custo opcional: cada dica tira **30s** do relógio da bomba, ou nada se preferir foco em diversão.
+Isso mantém o placar justo: quem pediu mais ajuda tem tempo maior. Registre as dicas na planilha.
 
 ## Cola de soluções (rápida)
 
 | Etapa | Valor |
 |---|---|
-| Mala (Puzzle A) | **7391** → chave Sala 2 |
-| METADE A (UV) | **`RX7-`** |
-| Cofre (C+D) | **2468** → METADE B **`42QK`** |
-| Senha notebook | **`RX7-42QK`** |
-| Bomba | 4 módulos vanilla, 5:00, 3 strikes (ver doc 03) |
+| Mala (GATE P4) | **4826** → chave da Sala 2 |
+| Metade 1 (P1, UV) | **`RX7-`** |
+| Combinação do cofre (T1, térreo) | **7315** |
+| Cofre (salão) | Metade 2 **`42QK`** + Serial **`SN-4270`** |
+| Senha do notebook | **`RX7-42QK`** (só no `SN-4270`) |
+| Bomba | 4 módulos vanilla, **Zen** (ver doc 03) |
 
-## Variantes de dificuldade
+## ✅ Checklist de RESET (dois andares)
 
-- **Mais fácil:** una as duas metades da senha em uma só (só Sala 1); deixe o cofre guardar uma dica da bomba.
-- **Mais difícil / mais comunicação:** coloque o **manual do KTANE na Sala 2** e o **notebook na Sala 1**, obrigando desarmador e leitores a ficarem em salas separadas — 100% rádio.
-- **Pressão extra:** cada dica pedida tira tempo da bomba.
+Tenha **kits pré-montados** por sala. Faça na ordem.
 
-## ✅ Checklist de RESET entre equipes (crítico p/ rodar o dia todo)
+**Salão (2º andar)**
+- [ ] Reesconder P1 (metade 1) e a lanterna UV; conferir se a marca UV está legível (retocar)
+- [ ] Reespalhar/embaralhar as páginas do manual (P2) nos esconderijos
+- [ ] Reesconder as 2 transparências do P3 (máscara `SN-••7•`)
+- [ ] Repor o painel do GATE e trancar a mala em **4826** com a chave da Sala 2 dentro
+- [ ] Fechar o **cofre** em **7315** com Metade 2 **`42QK`** + Serial **`SN-4270`** dentro
+- [ ] TV do salão espelhando o cronômetro do jogo · Rádio #1 carregado, canal certo
 
-Faça na ordem. Tenha **kits pré-montados** de itens consumíveis para agilizar.
-
-**Sala 1**
-- [ ] Recolher os 4 cartões do Puzzle A e reesconder nos lugares certos
-- [ ] Reesconder a lanterna UV (dentro da mala do Puzzle A)
-- [ ] Trancar a mala com a combinação **7391** e colocar a chave da Sala 2 dentro
-- [ ] Conferir se a marca UV (METADE A) continua legível (re-passar caneta se apagou)
-- [ ] Notebook na **tela de senha** (bomba NÃO iniciada)
-- [ ] Rádio #1 carregado e no canal certo
-
-**Sala 2**
-- [ ] Trancar a porta da Sala 2 (chave volta pra mala)
-- [ ] Reesconder cartão do Puzzle C e as 2 transparências do Puzzle D
-- [ ] Fechar o cofre na combinação **2468** com o cartão METADE B **`42QK`** dentro
-- [ ] Rádio #2 carregado e no canal certo
-
-**Notebook / bomba**
-- [ ] KTANE no menu, **perfil/preset** da bomba carregado (4 módulos, 5:00)
-- [ ] Cópias do **manual** impressas e destacadas, empilhadas na sala definida
-- [ ] Testar 1 início rápido da bomba e voltar ao menu
+**Térreo (Sala 2)**
+- [ ] Trancar a porta da Sala 2 (chave volta pra mala do salão)
+- [ ] Repor puzzles do T1 (etiquetas dos notebooks, cartaz, cifra/transparência)
+- [ ] Notebooks na mesa (5–10): todos na **tela de senha**; só o **`SN-4270`** é o certo
+- [ ] Conferir seriais adesivados; garantir que só 1 = `SN-4270`
+- [ ] KTANE no `SN-4270` com **preset Zen** carregado (4 módulos) · TV espelhando timer
+- [ ] Rádio #2 carregado, canal certo
 
 **Geral**
 - [ ] Baterias sobressalentes (rádios, lanterna UV)
-- [ ] Cronômetro/planilha de tentativas atualizada
-- [ ] Recompor o cenário (cadeiras, objetos no lugar)
+- [ ] Planilha do placar atualizada
+- [ ] Plaquinhas de foto no ponto de fotos
+- [ ] Timer do jogo zerado/pronto para a próxima equipe
 
-## Planilha de tentativas (registre o dia)
+## 🏆 Placar do dia
 
-| Equipe | Início | Fim | Resultado (desarmou/explodiu) | Tempo restante | Dicas usadas | Observações |
+| Equipe | Início | Tempo final (Zen) | Strikes | Dicas (+tempo) | Tempo ajustado | Posição |
 |---|---|---|---|---|---|---|
 |  |  |  |  |  |  |  |
+
+> **Tempo ajustado = tempo final do jogo + penalidades de dica.** É o número que rankeia.
+> (Strikes já entram no tempo do jogo pelo próprio Zen.)
+
+## Variante "só treino" para aquecer
+Se uma equipe estiver muito insegura, deixe uma **mini-bomba Zen de 1 módulo** no salão antes
+de descer, só para o desarmador e a equipe treinarem a dinâmica de rádio (não conta no placar).
