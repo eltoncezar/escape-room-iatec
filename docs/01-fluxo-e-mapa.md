@@ -32,23 +32,26 @@
 
 ## Grafo de dependências (a ordem é imposta pelo design)
 
+```mermaid
+flowchart TD
+    P1["P1 · metade 1 da senha"] --> GATE{"GATE 3→1"}
+    P2["P2 · páginas do manual"] --> GATE
+    P3["P3 · máscara do serial"] --> GATE
+    GATE --> KEY["P4 = CHAVE"]
+    KEY -->|desarmador desce| SALA2["abre a SALA 2"]
+    SALA2 --> T1["puzzles do térreo → COMBINAÇÃO do cofre"]
+    T1 -->|radio para o salao| COFRE["salão abre o COFRE"]
+    COFRE --> M2["METADE 2 + SERIAL completo"]
+    P1 -.->|guardada desde cedo| SENHA["METADE 1 + METADE 2 = SENHA"]
+    M2 --> SENHA
+    SENHA -->|radio para o desarmador| ACHA["desarmador acha o notebook certo - serial"]
+    ACHA --> DIGITA["digita a SENHA"]
+    DIGITA --> BOMBA["BOMBA — KTANE Zen → desarma ouvindo o manual por rádio"]
+    BOMBA --> PLACAR["tempo total → PLACAR"]
 ```
-P1 (metade 1) ─┐
-P2 (manual)    ├─ GATE ─► P4 = CHAVE ─► abre SALA 2 (desarmador desce)
-P3 (máscara)  ─┘                              │
-                                              ▼
-                         Puzzles da Sala 2 ─► COMBINAÇÃO do cofre ──(rádio)──► salão
-                                              │
-                       salão abre COFRE ─► METADE 2 + SERIAL completo
-                                              │
-              METADE 1 + METADE 2 = SENHA ──(rádio)──► desarmador
-                                              │
-       desarmador usa SERIAL p/ achar o notebook certo ─► digita SENHA
-                                              │
-                                    BOMBA (KTANE Zen) ─► desarma ouvindo o manual (rádio)
-                                              │
-                                    tempo total ─► PLACAR
-```
+
+> **Trilhas paralelas B1/B2** (não estão no caminho crítico acima) rodam no salão durante o
+> T1 — ver diagrama na seção "Anti-ociosidade" mais abaixo.
 
 > **Regras de sanidade do design (para não travar):**
 > - **P4 (chave) NÃO depende do cofre nem da Sala 2** — só dos 3 gates do salão. Assim a
@@ -59,25 +62,15 @@ P3 (máscara)  ─┘                              │
 
 ## Linha do tempo (alvo: 30–45 min de jogo; tempo Zen = pontuação)
 
-```
-[fora do relógio] Briefing no salão — GM explica enredo, entrega rádios, define desarmador
-[RELÓGIO/Zen] equipe entra; a bomba (Zen) já pode iniciar junto (ver doc 03)
-  │
-  ├─ 0–10 min: 4 puzzles paralelos no salão (P1,P2,P3) → convergem no GATE → P4 = chave
-  │            desarmador desce ao térreo com a chave e entra na Sala 2
-  │
-  ├─ 8–18 min: desarmador resolve puzzles do térreo → COMBINAÇÃO do cofre → dita por rádio
-  │            ⚠️ JANELA DE ESPERA do salão → trilhas paralelas B1 + B2 (ver abaixo)
-  │            B1: os 4 ordenam o manual e definem especialistas (sempre)
-  │            B2: (opcional) resolvem o satélite "Protocolo de Emergência" → bônus de tempo
-  │
-  ├─ 15–22 min: salão abre o COFRE → METADE 2 + SERIAL completo
-  │             equipe junta senha; dita SENHA + SERIAL por rádio
-  │
-  ├─ 20–25 min: desarmador acha o notebook certo → digita senha → BOMBA arma
-  │
-  └─ 25–40 min: desarme do KTANE (Zen), equipe lendo o manual por rádio
-              → tempo total travado no placar 🏆
+```mermaid
+timeline
+    title Linha do tempo da experiencia - Zen, o cronometro e a nota
+    Briefing fora do relogio : GM explica o enredo : entrega os radios : define o desarmador
+    0 a 10 min : 4 puzzles paralelos no salao P1 P2 P3 : convergem no GATE ate a chave P4 : desarmador desce ao terreo
+    8 a 18 min : desarmador resolve o T1 e dita a combinacao do cofre : janela de espera do salao com B1 e B2
+    15 a 22 min : salao abre o cofre com metade 2 e serial : junta a senha e dita por radio
+    20 a 25 min : desarmador acha o notebook certo : digita a senha e a bomba arma
+    25 a 40 min : desarme do KTANE Zen : equipe le o manual por radio : tempo travado no placar
 ```
 
 Como é **Zen**, não há "estouro": o cronômetro é a **nota**. O GM usa dicas para evitar que
@@ -89,12 +82,15 @@ uma equipe fique travada tempo demais (ruim para o clima e para a fila do dia).
 salão poderiam ficar parados esperando o cofre abrir. Para evitar isso, existem duas trilhas
 que **NÃO estão no caminho crítico** (não travam a chave, o cofre nem a senha):
 
-```
-Desarmador no T1 (combinação do cofre) ──────────► (dita por rádio)
-        │
-   Enquanto isso, os 4 no salão têm o que fazer:
-        ├─ B1 (sempre)   → ordenam páginas do manual + definem especialistas
-        └─ B2 (opcional) → satélite "Protocolo de Emergência" → BÔNUS de tempo
+```mermaid
+flowchart LR
+    T1["Desarmador no T1 — combinação do cofre"] -->|dita por rádio| COFRE["salão abre o cofre"]
+    subgraph JANELA["Enquanto isso, no salão — janela de espera"]
+        B1["B1 sempre · organizar o manual + definir especialistas"]
+        B2["B2 opcional · satélite Protocolo de Emergência → BÔNUS de tempo"]
+    end
+    B1 -.->|encurta o climax| CLIMAX["desarme mais rápido"]
+    B2 -.->|menos 90s ou dica gratis| CLIMAX
 ```
 
 - **B1 — Preparação do manual (sempre presente).** O P2 entrega as páginas embaralhadas;

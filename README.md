@@ -40,26 +40,43 @@ Escape room corporativo com clímax em **Keep Talking and Nobody Explodes (KTANE
 
 ## Fluxo em uma imagem
 
+```mermaid
+flowchart TB
+    subgraph SALAO["🏢 SALA 1 — SALÃO · 2º andar · equipe de 4"]
+        P1["P1 → METADE 1 da senha"]
+        P2["P2 → páginas do MANUAL"]
+        P3["P3 → máscara do SERIAL"]
+        GATE{"GATE 3→1"}
+        P4["P4 = CHAVE da Sala 2"]
+        COFRE["COFRE → METADE 2 + SERIAL completo"]
+        SENHA["METADE 1 + METADE 2 = SENHA completa"]
+        P1 --> GATE
+        P2 --> GATE
+        P3 --> GATE
+        GATE --> P4
+        COFRE --> SENHA
+        P1 -.-> SENHA
+    end
+
+    subgraph TERREO["🔻 SALA 2 — REUNIÃO · térreo · desarmador sozinho"]
+        NOTES["5–10 notebooks na mesa — só 1 é o certo"]
+        T1["Puzzles do térreo → COMBINAÇÃO do cofre"]
+        ACHA["Cruza SERIAL → acha o notebook certo"]
+        BOMBA["Digita a SENHA → BOMBA — KTANE Zen"]
+        T1 --> ACHA
+        NOTES --> ACHA
+        ACHA --> BOMBA
+    end
+
+    P4 ==>|desce com a chave| TERREO
+    T1 -->|combinacao por radio| COFRE
+    SENHA -->|senha por radio| BOMBA
+    BOMBA --> PLACAR["⏱️ tempo total → PLACAR 🏆"]
 ```
-SALA 1 — SALÃO (2º andar, equipe de 4)        SALA 2 — REUNIÃO (térreo, desarmador sozinho)
-┌──────────────────────────────────┐          ┌──────────────────────────────────┐
-│ 4 PUZZLES PARALELOS:              │          │ • 5–10 notebooks na mesa (1 certo)│
-│  P1 → METADE 1 da senha ─┐        │          │ • Puzzles → COMBINAÇÃO DO COFRE   │
-│  P2 → páginas do MANUAL  ├ gates ►│  chave   │   (ditada por rádio p/ o salão)   │
-│  P3 → máscara do SERIAL ─┘  P4    │═══════►  │                                   │
-│  P4 = CHAVE da Sala 2             │          │ desarmador cruza SERIAL c/ notebooks│
-│                                   │          │                                   │
-│ COFRE → METADE 2 + SERIAL completo│◄─rádio───│ (combinação do cofre vem daqui)   │
-│ TV: cronômetro Zen                │          │ TV: mesmo cronômetro Zen          │
-└──────────────────────────────────┘          └──────────────────────────────────┘
-     │  METADE 1 + METADE 2 = senha completa            │
-     └──────────── ditada por rádio ──────────────────► digita no notebook certo
-                                                         → BOMBA (KTANE Zen) → desarma
-                                                            ouvindo o manual por rádio
-                                                                    │
-                                                                    ▼
-                                                        tempo total → PLACAR 🏆
-```
+
+> No GitHub o diagrama acima renderiza como imagem. A **planta física** das salas (posição dos
+> objetos) fica em ASCII no [`docs/01-fluxo-e-mapa.md`](docs/01-fluxo-e-mapa.md), que é melhor
+> para layout espacial.
 
 ## Documentos
 
