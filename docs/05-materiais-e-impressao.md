@@ -57,7 +57,7 @@ TVs nas duas salas (de cada ala).
 - Cartão: **`METADE 2: 42QK`**
 - Cartão: **`SERIAL COMPLETO: SN-4270`**
 - Bilhete: *"Juntem as metades e passem tudo ao desarmador."*
-- (A maleta é uma **mala com combinação de 4 dígitos**; a combinação vem do T1 por rádio = **7315**)
+- (A maleta é uma **mala com combinação de 4 dígitos**; a combinação vem do T1 por rádio = **4213**, dígitos 0–5)
 
 ### Salão — B1 "Preparação do manual" (trilha paralela)
 - Cartaz-guia: *"Antes de a bomba armar: organizem o manual e escolham quem cuida de cada módulo."*
@@ -69,10 +69,12 @@ TVs nas duas salas (de cada ala).
 - Instrução: *"Pré-estudem a página desse módulo. Mostrem a palavra ao GM para o bônus."*
 - Recompensa: **−90s** no tempo **ou** **1 dica grátis** (equipe escolhe)
 
-### Térreo — T1 "Diagnóstico"
-- Cartaz com a regra + tabela/cifra → combinação da maleta **7315**
-- Etiquetas de manutenção nos notebooks (datas/status) coerentes com a regra
-- (Opcional) trecho em UV ou transparência
+### Térreo — T1 "A parede dos administradores" (4 quadros)
+- **4 fotos** dos administradores de TI, cada um fazendo **um dígito com os dedos** (uma mão, 0–5)
+- Imprimir/emoldurar os 4 quadros + uma **plaquinha** por quadro com nome + **nível (N1, N2, N3, N4)**
+- A ordem dos dígitos segue os **níveis** (N1→N2→N3→N4); pendure os quadros **fora de ordem** na parede
+- Combinação da maleta (exemplo): N1=**4** · N2=**2** · N3=**1** · N4=**3** → **4213**
+- Ao trocar o valor, use **dígitos 0–5** (um por mão) e refaça as fotos conforme
 
 ### Térreo — T2 adesivos de serial
 - Seriais nos 5–10 notebooks da mesa; **só 1 = `SN-4270`**; demais parecidos p/ despistar
@@ -178,7 +180,7 @@ Imprima em papel firme (ou corte em MDF/3D com haste). Sugestões — misture s�
 ## Kit de reset (1 por sala, pré-montado — **4 no total**: 2 salões + 2 salas de desarme)
 - Sacos etiquetados por puzzle com cartões/transparências/páginas
 - Caneta UV para retoque
-- Lista de combinações (só GM): mala do GATE **4826** · maleta de evidências **7315** · senha **`RX7-42QK`** · serial **`SN-4270`** · B2 **`SIMON`**
+- Lista de combinações (só GM): mala do GATE **4826** · maleta de evidências **4213** · senha **`RX7-42QK`** · serial **`SN-4270`** · B2 **`SIMON`**
 
 > Com **10 min de reset** entre slots, o kit precisa estar **pronto para repor**, não para
 > remontar. Se usar **valores diferentes por ala**, mantenha uma lista de combinações por ala

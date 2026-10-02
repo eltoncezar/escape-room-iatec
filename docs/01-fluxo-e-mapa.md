@@ -28,8 +28,8 @@
 ║                                                         ║
 ║   • 5–10 notebooks na mesa (só 1 é o certo; resto na    ║
 ║     tela de senha p/ despistar)                         ║
-║   • Puzzles do térreo ▸ COMBINAÇÃO DA MALETA            ║
-║     (a dupla dita por rádio p/ o salão)                 ║
+║   • T1: 4 QUADROS dos admins ▸ COMBINAÇÃO DA MALETA     ║
+║     (dedos por nível N1–N4; dupla dita por rádio)       ║
 ║   • Notebook certo é achado cruzando o SERIAL           ║
 ║   TV ▸ mesmo vídeo (timer + CCTV)   ·   RÁDIO #2        ║
 ╚═════════════════════════════════════════════════════════╝

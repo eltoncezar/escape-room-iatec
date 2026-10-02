@@ -61,18 +61,18 @@ relativo** (play no fim do briefing); registre o **tempo de desarme** de cada eq
 
 ## Timeline e gatilhos de dica
 
-| Tempo      | Esperado                              | Dica sutil se travar                                                                  |
-| ---------- | ------------------------------------- | ------------------------------------------------------------------------------------- |
-| 0–3 min    | Explorando o salão, achando P1/P2/P3  | "Reparem no que parece inútil agora — anotem."                                        |
-| ~5 min     | Montando tokens `◆ ▲ ■`               | "Vocês têm 3 símbolos. Onde há um painel que os traduz?"                              |
-| ~8 min     | Deveriam ter a **chave** (P4)         | Dê 1 token→dígito do painel do GATE.                                                  |
-| ~8–10 min  | Identificar a **sala** no CCTV (P5)   | "A chave não tem etiqueta. Olhem as **câmeras** — qual corredor? Onde ele entrou?"    |
-| ~10 min    | Dupla desceu (sala certa) e começa T1 | (GM térreo) "As etiquetas dos notebooks não são decorativas."                         |
-| ~10–18 min | **Salão esperando a maleta**          | "Enquanto isso: organizem o manual (B1) e vejam o Protocolo (B2) pra ganhar tempo."   |
-| ~15 min    | Combinação da maleta ditada           | "Lá embaixo, já passaram os 4 dígitos pra cima?"                                      |
-| ~18 min    | Maleta aberta → metade 2 + serial     | "Vocês têm as duas metades agora. Juntem e ditem."                                    |
-| ~22 min    | Achar o notebook certo                | (GM térreo) "Compare o serial com a máscara que acharam lá em cima."                  |
-| ~25 min+   | **BOMBA (Zen)**                       | Dicas de **comunicação**, não de solução: "digam a **cor** e a **posição** dos fios". |
+| Tempo      | Esperado                              | Dica sutil se travar                                                                    |
+| ---------- | ------------------------------------- | --------------------------------------------------------------------------------------- |
+| 0–3 min    | Explorando o salão, achando P1/P2/P3  | "Reparem no que parece inútil agora — anotem."                                          |
+| ~5 min     | Montando tokens `◆ ▲ ■`               | "Vocês têm 3 símbolos. Onde há um painel que os traduz?"                                |
+| ~8 min     | Deveriam ter a **chave** (P4)         | Dê 1 token→dígito do painel do GATE.                                                    |
+| ~8–10 min  | Identificar a **sala** no CCTV (P5)   | "A chave não tem etiqueta. Olhem as **câmeras** — qual corredor? Onde ele entrou?"      |
+| ~10 min    | Dupla desceu (sala certa) e começa T1 | (GM térreo) "Reparem nos quadros da parede — nas **mãos** deles. E no que diz embaixo." |
+| ~10–18 min | **Salão esperando a maleta**          | "Enquanto isso: organizem o manual (B1) e vejam o Protocolo (B2) pra ganhar tempo."     |
+| ~15 min    | Combinação da maleta ditada           | "Lá embaixo, já passaram os 4 dígitos pra cima?"                                        |
+| ~18 min    | Maleta aberta → metade 2 + serial     | "Vocês têm as duas metades agora. Juntem e ditem."                                      |
+| ~22 min    | Achar o notebook certo                | (GM térreo) "Compare o serial com a máscara que acharam lá em cima."                    |
+| ~25 min+   | **BOMBA (Zen)**                       | Dicas de **comunicação**, não de solução: "digam a **cor** e a **posição** dos fios".   |
 
 Como é Zen, não há estouro; a dica evita que uma equipe empaque e atrase a fila do dia.
 
@@ -103,7 +103,7 @@ para ocupar o salão durante a janela do T1 e recompensar quem for mais rápido.
 | Mala (GATE P4)                    | **4826** → chave física (sem destino)                    |
 | CCTV (P5)                         | corredor + clipe do funcionário → sala de desarme da ala |
 | Metade 1 (P1, UV)                 | **`RX7-`**                                               |
-| Combinação da maleta (T1, térreo) | **7315**                                                 |
+| Combinação da maleta (T1, térreo) | **4213** (dedos dos 4 quadros, ordem N1–N4)              |
 | Maleta de evidências (salão)      | Metade 2 **`42QK`** + Serial **`SN-4270`**               |
 | Senha do notebook                 | **`RX7-42QK`** (só no `SN-4270`)                         |
 | B2 — Protocolo (opcional)         | cifra → **`SIMON`** → **−90s** ou **1 dica grátis**      |
@@ -122,12 +122,13 @@ para ocupar o salão durante a janela do T1 e recompensar quem for mais rápido.
 - [ ] Reesconder as 2 transparências do P3 (máscara `SN-••7•`)
 - [ ] Repor o cartaz-guia do B1 e o cartão + transparência/UV do B2 (Protocolo → `SIMON`)
 - [ ] Repor o painel do GATE e trancar a mala em **4826** com a **chave (sem destino)** dentro
-- [ ] Trancar a **maleta de evidências** em **7315** com Metade 2 **`42QK`** + Serial **`SN-4270`** dentro
+- [ ] Trancar a **maleta de evidências** em **4213** com Metade 2 **`42QK`** + Serial **`SN-4270`** dentro
 - [ ] **Rebobinar o vídeo de 30 min** (timer + CCTV) na TV do salão, pronto p/ dar play · Rádio #1 da ala carregado, canal certo
 
 **Sala de desarme (térreo — Calabouço ou sala ao lado da sala do pastor)**
 - [ ] Trancar a porta da sala de desarme (chave volta pra mala do salão)
-- [ ] Repor puzzles do T1 (etiquetas dos notebooks, cartaz, cifra/transparência)
+- [ ] Conferir os **4 quadros dos admins** (T1) na parede: fotos certas, plaquinhas N1–N4 legíveis,
+      ordem dos quadros na parede como planejado (nada caiu/girou)
 - [ ] Notebooks na mesa (5–10): todos na **tela de senha**; só o **`SN-4270`** é o certo
 - [ ] Conferir seriais adesivados; garantir que só 1 = `SN-4270`
 - [ ] KTANE no `SN-4270` com **preset Zen** carregado (4 módulos)

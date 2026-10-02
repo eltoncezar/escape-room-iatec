@@ -182,13 +182,25 @@ só aplicar. Assim é "médio" sem virar frustrante.
 ### 🧩 T1 — "Diagnóstico" → COMBINAÇÃO DA MALETA (ditada por rádio ao salão)
 **Objetivo:** a dupla do térreo deduz os 4 dígitos da combinação da maleta de evidências lá de cima.
 
-**Montagem (escolha 1–2 técnicas, nível médio/difícil):**
-- **Etiquetas de manutenção** nos notebooks com "datas de serviço" e "status"; um cartaz na
-  parede diz a regra (ex.: *"some os notebooks marcados 'OK' na coluna B"*).
-- **Cifra/tabela** impressa que converte um código do cartaz em 4 dígitos.
-- (Opcional) parte revelada com **lanterna UV** ou **transparência** (você as tem).
+**Montagem — "A parede dos administradores" (4 quadros):**
+- Na parede da sala de desarme, **4 quadros emoldurados** com fotos dos **administradores de TI**
+  (pessoas reais da equipe, dá um charme interno). Em cada foto, o admin faz **discretamente um
+  número com os dedos de uma mão** (0–5) — é um dígito da combinação.
+- Cada quadro tem uma **plaquinha discreta** com nome + um "nível" fictício de TI
+  (**N1, N2, N3, N4**). **A ordem dos dígitos segue os níveis** (N1 → N2 → N3 → N4), **não** a
+  posição dos quadros na parede (que pode estar embaralhada de propósito).
+- O **enigma** é perceber (a) que os dedos são números e (b) que a plaquinha de nível dá a ordem.
+  Sem decifração pesada — leitura visual + ordenar.
 
-**Solução (exemplo):** combinação da maleta = **7315** → a dupla dita por rádio.
+**Solução (exemplo):** dedos por nível → N1=**4** · N2=**2** · N3=**1** · N4=**3** →
+combinação da maleta = **4213** → a dupla dita por rádio.
+
+> **Por que 0–5 (uma mão):** cada quadro = **um dígito com uma mão** (punho fechado = 0, até 5
+> dedos = 5). Por isso a combinação usa só dígitos **0–5** (evita o "7", que precisaria de duas
+> mãos). Ao trocar o valor antes do evento, **mantenha todos os dígitos entre 0 e 5**.
+
+> **Rampa p/ novato:** se travarem em "o que são esses números?", o GM (térreo) aponta: *"Reparem
+> nas mãos deles."* Se travarem na ordem: *"O que diz embaixo de cada quadro?"*
 
 > A dupla **não** abre a maleta (ela está no salão). A dupla só **descobre e transmite**
 > a combinação. Quem abre é a equipe. Isso é o núcleo da dependência por rádio.
@@ -206,18 +218,18 @@ só aplicar. Assim é "médio" sem virar frustrante.
 
 ## Cola de soluções (rápida — GM)
 
-| Etapa                        | Valor                                                    |
-| ---------------------------- | -------------------------------------------------------- |
-| P1 — Metade 1 (UV)           | **`RX7-`** · token `◆`                                   |
-| P2 — Manual em pedaços       | páginas ordenadas · token `▲`                            |
-| P3 — Máscara do serial       | **`SN-••7•`** · token `■`                                |
-| P4 — GATE → mala             | **4826** → chave física (sem destino)                    |
-| P5 — CCTV (qual sala)        | corredor + clipe do funcionário → sala de desarme da ala |
-| B1 — Preparação do manual    | manual ordenado + especialistas (sem código)             |
-| B2 — Protocolo (opcional)    | cifra → **`SIMON`** → **−90s** ou **1 dica grátis**      |
-| T1 — Diagnóstico (térreo)    | combinação da maleta = **7315**                          |
-| Maleta de evidências (salão) | Metade 2 = **`42QK`** · Serial = **`SN-4270`**           |
-| **Senha do notebook**        | **`RX7-42QK`** (só no `SN-4270`)                         |
+| Etapa                           | Valor                                                    |
+| ------------------------------- | -------------------------------------------------------- |
+| P1 — Metade 1 (UV)              | **`RX7-`** · token `◆`                                   |
+| P2 — Manual em pedaços          | páginas ordenadas · token `▲`                            |
+| P3 — Máscara do serial          | **`SN-••7•`** · token `■`                                |
+| P4 — GATE → mala                | **4826** → chave física (sem destino)                    |
+| P5 — CCTV (qual sala)           | corredor + clipe do funcionário → sala de desarme da ala |
+| B1 — Preparação do manual       | manual ordenado + especialistas (sem código)             |
+| B2 — Protocolo (opcional)       | cifra → **`SIMON`** → **−90s** ou **1 dica grátis**      |
+| T1 — Parede dos admins (térreo) | dedos por nível N1–N4 → combinação da maleta = **4213**  |
+| Maleta de evidências (salão)    | Metade 2 = **`42QK`** · Serial = **`SN-4270`**           |
+| **Senha do notebook**           | **`RX7-42QK`** (só no `SN-4270`)                         |
 
 ## Peças opcionais em impressora 3D
 - **Suporte temático** para o notebook certo (visual de "bomba") — ajuda a destacá-lo pro GM.
