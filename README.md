@@ -9,19 +9,20 @@ comprometido antes do relógio.
 
 ## Visão geral
 
-| Item                | Definição                                                                                                                 |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| **Salas (por ala)** | **Salão** = sala da equipe (2º andar) · **Sala de desarme** = sala pequena do térreo                                      |
-| **Alas**            | **Duas em paralelo** — Ala B (1B + "Calabouço") e Ala C (1C + sala ao lado da sala do pastor)                             |
-| **Equipe**          | 6 pessoas: **4 no salão** + **2 na sala de desarme** (desarmador + ajudante)                                              |
-| **Comunicação**     | 100% por **rádio** (andares diferentes)                                                                                   |
-| **Público**         | Diverso, maioria nunca jogou escape room / KTANE                                                                          |
-| **Operação**        | Dia todo (**8:30–16:30**), **duas alas em paralelo**, ciclos de **30 min de jogo + 10 min de reset**, **2 equipes de GM** |
-| **Agenda**          | Participantes **se inscrevem e agendam horário**                                                                          |
-| **Bomba**           | KTANE em **modo Zen**: sem explosão, tempo **progressivo**, cada strike **soma tempo**                                    |
-| **Objetivo**        | **Menor tempo total** → **Premiação 1** no fim do dia 🏆                                                                   |
-| **Premiação bônus** | Meta-jogo opcional do **cofre** (Premiação 2), fora do caminho crítico · ver [`docs/07`](docs/07-meta-jogo-cofre.md)      |
-| **Extra**           | Cronômetro do jogo espelhado nas **TVs** das duas salas de cada ala · **plaquinhas de foto** no fim                       |
+| Item                | Definição                                                                                                                                  |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Salas (por ala)** | **Salão** = sala da equipe (2º andar) · **Sala de desarme** = sala pequena do térreo                                                       |
+| **Alas**            | **Duas em paralelo** — Ala B (1B + "Calabouço") e Ala C (1C + sala ao lado da sala do pastor)                                              |
+| **Equipe**          | 6 pessoas: **4 no salão** + **2 na sala de desarme** (desarmador + ajudante)                                                               |
+| **Comunicação**     | 100% por **rádio** (andares diferentes)                                                                                                    |
+| **Público**         | Diverso, maioria nunca jogou escape room / KTANE                                                                                           |
+| **Operação**        | Dia todo (**8:30–16:30**), **duas alas em paralelo**, ciclos de **30 min de jogo + 10 min de reset**, **2 equipes de GM**                  |
+| **Agenda**          | Participantes **se inscrevem e agendam horário**                                                                                           |
+| **Bomba**           | KTANE em **modo Zen**: sem explosão, tempo **progressivo**, cada strike **soma tempo**                                                     |
+| **Objetivo**        | **Menor tempo total** → **Premiação 1** no fim do dia 🏆                                                                                    |
+| **Premiação bônus** | Meta-jogo opcional do **cofre** (Premiação 2), fora do caminho crítico · ver [`docs/07`](docs/07-meta-jogo-cofre.md)                       |
+| **TVs**             | **Vídeo de 30 min por ala** = timer na tela + **CCTV**: descobrir **em qual sala** usar a chave é puzzle (P5) · timer **não sincronizado** |
+| **Extra**           | **Plaquinhas de foto** no fim                                                                                                              |
 
 > Operação do dia (datas, alas, escala): ver [`.kiro/steering/evento.md`](.kiro/steering/evento.md).
 > Os docs usam termos genéricos **"Salão"** e **"Sala de desarme"**; o mapeamento físico por ala
@@ -39,7 +40,8 @@ comprometido antes do relógio.
 ## Por que este design funciona
 
 1. **A arquitetura do prédio vira mecânica.** Dupla do desarme no térreo + equipe no 2º andar =
-   o rádio não é opcional, é a **única** ponte. É o espírito do KTANE imposto pelo espaço.
+   o rádio não é opcional, é a **única** ponte. É o espírito do KTANE imposto pelo espaço. E a
+   **chave não vem rotulada**: descobrir **qual sala** pelas câmeras (CCTV) é parte do puzzle (P5).
 2. **Ninguém tem a senha completa sozinho.** As duas metades ficam no salão, mas a
    **combinação da maleta de evidências** (que guarda a metade 2) só vem dos puzzles do térreo
    → dependência nos dois sentidos.
@@ -58,7 +60,8 @@ flowchart TB
         P2["P2 → páginas do MANUAL"]
         P3["P3 → máscara do SERIAL"]
         GATE{"GATE 3→1"}
-        P4["P4 = CHAVE da sala de desarme"]
+        P4["P4 = CHAVE (sem destino)"]
+        P5["P5 = CCTV na TV → qual sala"]
         MALETA["MALETA → METADE 2 + SERIAL completo"]
         SENHA["METADE 1 + METADE 2 = SENHA completa"]
         P1 --> GATE
@@ -79,7 +82,8 @@ flowchart TB
         ACHA --> BOMBA
     end
 
-    P4 ==>|desce com a chave| TERREO
+    P4 --> P5
+    P5 ==>|desce com a chave p/ a sala certa| TERREO
     T1 -->|combinacao por radio| MALETA
     SENHA -->|senha por radio| BOMBA
     BOMBA --> PLACAR["⏱️ tempo total → PLACAR 🏆"]

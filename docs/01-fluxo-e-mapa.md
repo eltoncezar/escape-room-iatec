@@ -14,14 +14,15 @@
 ║   P2 ▸ páginas do MANUAL do KTANE (escondidas)          ║
 ║   P3 ▸ máscara parcial do SERIAL (ex.: SN-••7•)         ║
 ║        └─ P1+P2+P3 = GATE ─► P4                         ║
-║   P4 ▸ CHAVE física da sala de desarme                  ║
+║   P4 ▸ CHAVE física (SEM destino — ver P5)              ║
+║   P5 ▸ CCTV na TV revela QUAL sala a chave abre         ║
 ║                                                         ║
 ║   MALETA ▸ guarda METADE 2 da senha + SERIAL completo   ║
 ║            (combinação vem do TÉRREO, por rádio)        ║
-║   TV ▸ cronômetro do jogo (Zen)   ·   RÁDIO #1          ║
+║   TV ▸ VÍDEO 30 min: timer embutido + loop CCTV · RÁDIO #1 ║
 ╚═════════════════════════════════════════════════════════╝
-                         │  chave desce com a dupla do desarme
-                         ▼
+             │  dupla desce COM A CHAVE p/ a sala identificada no P5
+             ▼
 ╔═══════════════════════ TÉRREO ═════════════════════════╗
 ║  SALA DE DESARME (pequena) — DESARMADOR + AJUDANTE      ║
 ║                                                         ║
@@ -30,7 +31,7 @@
 ║   • Puzzles do térreo ▸ COMBINAÇÃO DA MALETA            ║
 ║     (a dupla dita por rádio p/ o salão)                 ║
 ║   • Notebook certo é achado cruzando o SERIAL           ║
-║   TV ▸ mesmo cronômetro do jogo   ·   RÁDIO #2          ║
+║   TV ▸ mesmo vídeo (timer + CCTV)   ·   RÁDIO #2        ║
 ╚═════════════════════════════════════════════════════════╝
 ```
 
@@ -41,8 +42,10 @@ flowchart TD
     P1["P1 · metade 1 da senha"] --> GATE{"GATE 3→1"}
     P2["P2 · páginas do manual"] --> GATE
     P3["P3 · máscara do serial"] --> GATE
-    GATE --> KEY["P4 = CHAVE"]
-    KEY -->|dupla do desarme desce| SALA2["abre a sala de desarme"]
+    GATE --> KEY["P4 = CHAVE (sem destino)"]
+    CCTV["P5 · CCTV na TV → qual sala"] --> IDENT{"chave + sala identificada"}
+    KEY --> IDENT
+    IDENT -->|dupla desce p/ a sala certa| SALA2["abre a sala de desarme"]
     SALA2 --> T1["puzzles do térreo → COMBINAÇÃO da maleta"]
     T1 -->|radio para o salao| MALETA["salão abre a MALETA"]
     MALETA --> M2["METADE 2 + SERIAL completo"]
@@ -59,7 +62,10 @@ flowchart TD
 
 > **Regras de sanidade do design (para não travar):**
 > - **P4 (chave) NÃO depende da maleta nem da sala de desarme** — só dos 3 gates do salão. Assim
->   a equipe sempre consegue abrir a sala de desarme sozinha.
+>   a equipe sempre consegue chegar à chave sozinha.
+> - **P5 (CCTV) é o único jeito de saber QUAL sala** a chave abre, e está **no caminho crítico**.
+>   Como não pode emperrar o dia, o clipe do funcionário **repete no loop** e o GM pode apontar
+>   "olhem as câmeras". A chave (P4) e o destino (P5) ficam **separados de propósito**.
 > - **A combinação da maleta está SÓ na sala de desarme** — obriga a dupla do térreo a ser útil
 >   (não fica só recebendo ordens).
 > - **A METADE 1 é achada antes da chave** e parece inútil no momento — recompensa quem anota.
@@ -73,8 +79,8 @@ flowchart TD
 ```mermaid
 timeline
     title Linha do tempo da experiencia - Zen, o cronometro e a nota
-    Briefing fora do relogio : GM explica o enredo : entrega os radios : define o desarmador
-    0 a 10 min : 4 puzzles paralelos no salao P1 P2 P3 : convergem no GATE ate a chave P4 : dupla do desarme desce ao terreo
+    Briefing por sala fora do relogio : GM explica o enredo : entrega os radios : define a dupla do desarme
+    0 a 10 min : 4 puzzles paralelos no salao P1 P2 P3 : convergem no GATE ate a chave P4 : CCTV P5 revela a sala : dupla desce com a chave
     8 a 18 min : dupla resolve o T1 e dita a combinacao da maleta : janela de espera do salao com B1 e B2
     15 a 22 min : salao abre a maleta com metade 2 e serial : junta a senha e dita por radio
     20 a 25 min : dupla acha o notebook certo : digita a senha e a bomba arma
@@ -121,12 +127,12 @@ flowchart LR
 ## Papéis (mantendo os 6 ativos)
 
 **Salão (4 pessoas)** — sugerir, não impor:
-| Papel               | Faz                                                                 |
-| ------------------- | ------------------------------------------------------------------- |
-| **Rádio-líder**     | Fala com a dupla do desarme; centraliza pedidos e respostas         |
-| **Puzzle A**        | Toca P1 + parte do GATE                                             |
-| **Puzzle B**        | Toca P2 (manual) + P3 (máscara serial)                              |
-| **Escrivão/Manual** | Anota tudo (metade 1!) e, no clímax, vira leitor do manual do KTANE |
+| Papel               | Faz                                                                                                               |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **Rádio-líder**     | Fala com a dupla do desarme; centraliza pedidos; **fica de olho no CCTV da TV (P5)** para dizer à dupla qual sala |
+| **Puzzle A**        | Toca P1 + parte do GATE                                                                                           |
+| **Puzzle B**        | Toca P2 (manual) + P3 (máscara serial)                                                                            |
+| **Escrivão/Manual** | Anota tudo (metade 1! + **a sala vista no CCTV**) e, no clímax, vira leitor do manual do KTANE                    |
 
 **Sala de desarme (2 pessoas)** — a **dupla do térreo**:
 | Papel          | Faz                                                                                                                                                         |

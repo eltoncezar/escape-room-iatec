@@ -18,16 +18,17 @@ TVs nas duas salas (de cada ala).
 > `07-meta-jogo-cofre.md` (materiais do meta-jogo detalhados lá).
 
 ## O que providenciar 🛒
-| Item                                       | Uso                             | Obs.                                    |
-| ------------------------------------------ | ------------------------------- | --------------------------------------- |
-| **Caneta/tinta UV**                        | Metade 1 (P1) e trechos do T1   | Testar com a lanterna antes             |
-| Cópias do **manual KTANE** (dos 4 módulos) | P2 + clímax                     | Baixar PDF oficial, imprimir e destacar |
-| Marca-textos                               | Destacar seções do manual       | Reduz sobrecarga p/ novatos             |
-| **Adesivos de serial** p/ notebooks        | T2 (achar o certo)              | Padronizar; só 1 = `SN-4270`            |
-| Baterias/pilhas sobressalentes             | Rádios + lanterna UV            | Rodando o dia todo                      |
-| Envelopes lacrados                         | Esconder páginas do manual (P2) | Facilita reset                          |
-| **HDMI splitter / transmissor de vídeo**   | Espelhar timer nas 2 TVs        | Ver doc 03                              |
-| Fita/velcro                                | Fixar/esconder pistas           | Facilita reset                          |
+| Item                                       | Uso                                      | Obs.                                                  |
+| ------------------------------------------ | ---------------------------------------- | ----------------------------------------------------- |
+| **Caneta/tinta UV**                        | Metade 1 (P1) e trechos do T1            | Testar com a lanterna antes                           |
+| Cópias do **manual KTANE** (dos 4 módulos) | P2 + clímax                              | Baixar PDF oficial, imprimir e destacar               |
+| Marca-textos                               | Destacar seções do manual                | Reduz sobrecarga p/ novatos                           |
+| **Adesivos de serial** p/ notebooks        | T2 (achar o certo)                       | Padronizar; só 1 = `SN-4270`                          |
+| Baterias/pilhas sobressalentes             | Rádios + lanterna UV                     | Rodando o dia todo                                    |
+| Envelopes lacrados                         | Esconder páginas do manual (P2)          | Facilita reset                                        |
+| **Vídeo de 30 min por ala** (timer + CCTV) | Timer na tela + puzzle P5 (achar a sala) | Produzir 2 vídeos (um por ala); ver abaixo            |
+| **Pendrive / mini-PC / player** por TV     | Rodar o vídeo em loop na TV              | Qualquer fonte que dê play; sem sincronia entre salas |
+| Fita/velcro                                | Fixar/esconder pistas                    | Facilita reset                                        |
 
 ## O que imprimir (com o conteúdo)
 
@@ -46,7 +47,11 @@ TVs nas duas salas (de cada ala).
 
 ### Salão — P4 "GATE / painel"
 - Pôster: `◆`=4 · `▲`=8 · `■`=2 · 4ª posição fixa =6 · ordem `◆ ▲ ■ (fixo)` → mala **4826**
-- Bilhete na mala: *"Desça. Você vai precisar de silêncio e de um bom rádio."*
+- Dentro da mala: a **chave física** (sem etiqueta de sala)
+- Bilhete na mala: *"A chave é só metade. Onde foi mesmo que ele entrou? As câmeras não mentem."*
+
+### Salão — P5 "Onde está o host" (CCTV)
+- Não imprime nada: é o **vídeo de 30 min** da ala (timer + CCTV) rodando na TV. Ver seção do vídeo acima.
 
 ### Salão — conteúdo da MALETA DE EVIDÊNCIAS (ex-cofre)
 - Cartão: **`METADE 2: 42QK`**
@@ -72,6 +77,38 @@ TVs nas duas salas (de cada ala).
 ### Térreo — T2 adesivos de serial
 - Seriais nos 5–10 notebooks da mesa; **só 1 = `SN-4270`**; demais parecidos p/ despistar
   (ex.: `SN-4210`, `SN-4276`, `SN-1270`, `SN-4270A`...)
+
+## 🎬 Vídeo de 30 min "timer + CCTV" (P5) — produzir 1 por ala
+
+É o **coração do puzzle P5** e também o **cronômetro** da sala. **Dois vídeos** (um por ala),
+porque cada ala aponta para a **sua** sala de desarme.
+
+**O que o vídeo precisa ter:**
+- **Timer embutido na imagem**, contando **0 → 30:00** (queimado no vídeo, não overlay separado —
+  assim o GM só dá play). Pode ficar num canto fixo da tela.
+- **Loop de CCTV** ocupando o resto da tela, alternando câmeras rotuladas (ex.: `CAM 01 — EXTERNA`,
+  `CAM 04 — CORREDOR`, `CAM 07 — SALA ...`), com estética de câmera de segurança (P&B/esverdeado,
+  timestamp, "REC ●").
+- **Câmeras a incluir:**
+  - **Externa** do prédio (ambientação).
+  - **Corredor específico** da sala de desarme da ala — estreita as candidatas (há vários corredores).
+  - **Interiores de várias salas**, com **distratores** (salas que não são a certa).
+  - **Clipe do ex-colaborador** entrando na **sala certa** e mexendo nos PCs — a **dica final**.
+    Faça o clipe **reaparecer** no loop (a cada poucos minutos) para não travar quem chegar atrasado.
+
+**Por ala (apontar para a sala certa):**
+- **Ala B:** o clipe/câmera interna mostra o **"Calabouço"**.
+- **Ala C:** mostra a **sala ao lado da sala do pastor**.
+
+**Produção (sugestões):**
+- Grave as câmeras com celular em modo "fixo", aplique um filtro de CCTV e **queime** timestamp +
+  o timer num editor (ex.: qualquer editor de vídeo com camada de texto/contador).
+- Se não der para filmar o funcionário, dá para encenar com um colaborador voluntário (de costas/
+  silhueta já funciona e preserva o clima).
+- **Reset = dar play de novo** (rebobinar). Não há montagem física; o vídeo é reutilizável o dia todo.
+
+> ⚠️ **P5 é caminho crítico:** sem identificar a sala, a dupla não desce. Garanta que o clipe do
+> funcionário seja **claro** e **repita**; o GM pode apontar "olhem as câmeras" se travar (ver doc 04).
 
 ## Peças para impressora 3D (opcionais)
 
@@ -113,7 +150,7 @@ Reset = fechar a caixa de novo.
 
 **Ideias de uso no fluxo (só sugestão, nada decidido):**
 - Cryptex guardando a **metade 1 da senha** (evolui o P1: descobrir a palavra → abrir → achar `RX7-`).
-- Puzzle box guardando a **chave da sala de desarme** (evolui o P4/GATE: 3 tokens ↔ 3 movimentos da caixa).
+- Puzzle box guardando a **chave (sem destino)** do P4 (evolui o GATE: 3 tokens ↔ 3 movimentos da caixa; a sala ainda é revelada pelo CCTV/P5).
 - Caixa com combinação 3D servindo de **maleta de evidências** (substituta direta do ex-cofre).
 
 > ⚠️ **Calibração:** peças mecânicas print-in-place podem precisar de ajuste de tolerância/folga

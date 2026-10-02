@@ -56,20 +56,51 @@ serial não bate com o dígito conhecido — acelera quando o serial completo ch
 
 ---
 
-### 🧩 P4 — "O GATE" → CHAVE da sala de desarme
+### 🧩 P4 — "O GATE" → CHAVE (sem destino)
 **Objetivo:** combinar os 3 tokens (`◆ ▲ ■`) para abrir a **mala com combinação numérica**
 que guarda a **chave física** da sala de desarme.
+
+> **Mudança importante:** a chave **não vem rotulada**. A equipe pega a chave mas **não sabe
+> qual porta ela abre** — descobrir a sala certa é o puzzle **P5** (CCTV), logo abaixo. Antes a
+> chave "era da sala de desarme" e pronto; agora é uma **chave sem destino**.
 
 **Montagem:**
 - Um **painel/pôster** no salão mapeia cada token a um dígito e define a ordem:
   - `◆` = 4 · `▲` = 8 · `■` = 2 · e uma 4ª posição fixa impressa no painel = 6
 - Ordem impressa no painel: `◆ ▲ ■ (fixo)` → combinação da mala = **4826**.
-- Dentro da mala: **chave física da sala de desarme** + bilhete: *"Desça. Você vai precisar de silêncio
-  e de um bom rádio."* (e, se quiser, a lanterna UV do P1).
+- Dentro da mala: **chave física** + bilhete: *"A chave é só metade. Onde foi mesmo que ele
+  entrou? As câmeras não mentem."* (e, se quiser, a lanterna UV do P1).
 
-**Solução:** mala = **4826** → chave da sala de desarme.
+**Solução:** mala = **4826** → chave física (destino revelado no P5).
 
 **Por que é o gate:** sem os 3 tokens a equipe não sabe a combinação → obriga terminar P1+P2+P3.
+
+---
+
+### 📺 P5 — "Onde está o host" (CCTV) → identifica a SALA DE DESARME
+**Objetivo:** descobrir **qual sala** a chave do P4 abre, observando o **loop de CCTV** que roda
+na TV do salão. Caminho crítico: sem identificar a sala, a dupla não sabe onde descer.
+
+**Montagem:**
+- A TV do salão roda o **vídeo de 30 min** (o mesmo que tem o **timer embutido** — ver `03`).
+  Além do contador, o vídeo alterna **câmeras de CCTV**:
+  - **Exterior do prédio** (ambientação, "está tudo normal lá fora").
+  - **O corredor específico** da sala de desarme — como o prédio tem **vários corredores**, isso
+    já **estreita** as candidatas (dica intermediária).
+  - **Interiores de várias salas**, incluindo **distratores** (salas que não são a certa).
+  - Em algum momento do loop, um **clipe do ex-colaborador revoltado entrando na sala certa e
+    mexendo nos computadores** — essa é a **dica final** que crava a sala.
+- O vídeo é **por ala**: na Ala B aponta para o **Calabouço**; na Ala C, para a **sala ao lado da
+  sala do pastor**. Assim uma equipe não desce para a sala da outra ala.
+
+**Solução:** cruzar "corredor mostrado" + "sala onde o funcionário aparece" → a sala de desarme
+da ala. A dupla desce com a **chave do P4** para **aquela** porta.
+
+**Por que funciona:** a chave (P4) e o destino (P5) ficam **separados** — ter a chave não basta,
+é preciso ter prestado atenção nas câmeras. Reforça o tema de SOC/monitoramento e dá função às TVs.
+
+**Rampa p/ novato:** o clipe do funcionário pode repetir mais vezes no loop (ou o GM aponta
+"olhem a câmera") se a equipe travar — é caminho crítico, não pode emperrar o dia.
 
 ---
 
@@ -175,17 +206,18 @@ só aplicar. Assim é "médio" sem virar frustrante.
 
 ## Cola de soluções (rápida — GM)
 
-| Etapa                        | Valor                                               |
-| ---------------------------- | --------------------------------------------------- |
-| P1 — Metade 1 (UV)           | **`RX7-`** · token `◆`                              |
-| P2 — Manual em pedaços       | páginas ordenadas · token `▲`                       |
-| P3 — Máscara do serial       | **`SN-••7•`** · token `■`                           |
-| P4 — GATE → mala             | **4826** → chave da sala de desarme                 |
-| B1 — Preparação do manual    | manual ordenado + especialistas (sem código)        |
-| B2 — Protocolo (opcional)    | cifra → **`SIMON`** → **−90s** ou **1 dica grátis** |
-| T1 — Diagnóstico (térreo)    | combinação da maleta = **7315**                     |
-| Maleta de evidências (salão) | Metade 2 = **`42QK`** · Serial = **`SN-4270`**      |
-| **Senha do notebook**        | **`RX7-42QK`** (só no `SN-4270`)                    |
+| Etapa                        | Valor                                                    |
+| ---------------------------- | -------------------------------------------------------- |
+| P1 — Metade 1 (UV)           | **`RX7-`** · token `◆`                                   |
+| P2 — Manual em pedaços       | páginas ordenadas · token `▲`                            |
+| P3 — Máscara do serial       | **`SN-••7•`** · token `■`                                |
+| P4 — GATE → mala             | **4826** → chave física (sem destino)                    |
+| P5 — CCTV (qual sala)        | corredor + clipe do funcionário → sala de desarme da ala |
+| B1 — Preparação do manual    | manual ordenado + especialistas (sem código)             |
+| B2 — Protocolo (opcional)    | cifra → **`SIMON`** → **−90s** ou **1 dica grátis**      |
+| T1 — Diagnóstico (térreo)    | combinação da maleta = **7315**                          |
+| Maleta de evidências (salão) | Metade 2 = **`42QK`** · Serial = **`SN-4270`**           |
+| **Senha do notebook**        | **`RX7-42QK`** (só no `SN-4270`)                         |
 
 ## Peças opcionais em impressora 3D
 - **Suporte temático** para o notebook certo (visual de "bomba") — ajuda a destacá-lo pro GM.

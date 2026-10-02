@@ -41,39 +41,48 @@ modo relax/treino. Consequência de design que você escolheu de propósito:
 Imprima e esconda no salão (P2) **apenas** as páginas dos 4 módulos acima. Se trocar um
 módulo, **troque a página** correspondente. Destaque com marca-texto para novato não se perder.
 
-## TVs — cronômetro espelhado nos dois andares
+## TVs — o vídeo de 30 min (timer + CCTV) por sala
 
-> Isto vale **por ala**: cada ala tem seu próprio notebook de jogo espelhado nas duas TVs dela
-> (salão + sala de desarme). As duas alas são independentes.
+Cada sala tem **uma TV**. Em vez de espelhar o jogo do KTANE, a TV roda um **vídeo de 30 min**
+que já traz **o timer embutido na própria tela** junto com um **loop de CCTV** (ver o puzzle
+P5 "Onde está o host" no `02-puzzles.md`). Um único arquivo de vídeo resolve duas coisas:
+o cronômetro visível e o puzzle de descoberta da sala.
 
-- Ambas as TVs (salão e térreo) mostram **o mesmo cronômetro do jogo** — é o tempo que vale
-  para o placar. Isso cria pressão compartilhada mesmo com a equipe separada por andares.
-- Opções de espelhamento (do mais simples ao mais elaborado):
-  - **HDMI/cast** da saída do notebook do jogo para as duas TVs (splitter ou transmissor).
-  - Uma **captura/stream** simples do timer para as duas telas.
-- **Fase 2 (se sobrar tempo):** trocar o feed por um **vídeo com partes de um puzzle** nas TVs
-  (ex.: um trecho que revela um token do gate ou uma dica da combinação da maleta).
+- **Timer NÃO sincronizado entre salas/alas.** Cada GM dá **play no seu vídeo** quando libera a
+  equipe (fim do briefing). Não há relógio central nem espelhamento entre telas — é só dar play.
+  Isso simplifica muito a operação com duas alas rodando em paralelo.
+- **O timer corre dentro do vídeo** (0 → 30 min). Como o modo da bomba é **Zen** (sem explosão),
+  o número que vale é a **duração** até o desarme, não o horário de parede.
+- **Uma TV por sala, duas por ala** (salão + sala de desarme). Cada ala tem **seu próprio vídeo**,
+  apontando para a **sua** sala de desarme (ver P5). Os dois vídeos são iguais na mecânica, mas
+  mostram salas/corredores diferentes.
 
-## Como iniciar a bomba junto com a sala
+> **Justiça do placar sem sincronia:** o que mantém o ranking justo **não** é um relógio único,
+> e sim **todas as equipes começarem a contar no mesmo marco relativo** — o GM dá play no vídeo
+> **no fim do briefing**, ao liberar a equipe. Assim toda equipe tem os mesmos 30 min "do zero".
+> Registre o **tempo de desarme** (quando a bomba foi desarmada) como a marca da equipe.
 
-Você quis **iniciar a bomba quando a sala inicia** e usar **o contador do jogo como cronômetro
-oficial**. Duas formas:
+> ⚠️ **Produção do vídeo:** o timer precisa estar **embutido no vídeo** (queimado na imagem), não
+> numa sobreposição separada — assim o GM só precisa dar play. Detalhes de montagem no `docs/05`.
 
-- **(Recomendada) Zen inicia no briefing:** o GM inicia a partida Zen ao liberar a equipe; o
-  timer sobe desde o começo, cobrindo puzzles + desarme. O "notebook certo" fica na tela de
-  senha até ser digitada `RX7-42QK`; o **timer do jogo já roda em background** e aparece nas TVs.
-- **(Alternativa) Zen inicia ao digitar a senha:** timer só começa quando o notebook é
-  destravado. Mais simples tecnicamente, mas o tempo dos puzzles não conta.
+## Como iniciar o jogo (timer = o vídeo)
 
-> Escolha a que combina com sua premiação. Para "menor tempo total da experiência", use a
-> **recomendada** (timer desde o briefing). Deixe isso **fixo para todas as equipes** para o
-> placar ser justo.
+- O GM termina o **briefing** (feito **separadamente em cada salão**) e **dá play no vídeo de
+  30 min**. O timer sobe desde o começo, cobrindo puzzles + descoberta da sala + desarme.
+- O **notebook certo** fica na tela de senha até ser digitada `RX7-42QK`; a bomba KTANE Zen é
+  o clímax, mas **o tempo oficial é o do vídeo** (não o timer interno do KTANE).
+- Deixe o gatilho **fixo para todas as equipes** (play no fim do briefing) para o placar ser justo.
+
+> Se preferir, o KTANE pode rodar em Zen em paralelo como "sensação de bomba", mas a marca que
+> vai pro placar é a do **vídeo** (momento do desarme). Mantenha um critério só, igual para todos.
 
 ## Reset da bomba entre equipes
 
 - Salve um **perfil/preset** com os 4 módulos e a config Zen para não reconfigurar.
 - Reset = voltar ao menu, recarregar o preset, deixar o `SN-4270` na tela de senha.
-- Zere/registre o cronômetro (anote o tempo final na planilha do placar — ver doc 04).
+- **Rebobine o vídeo de 30 min** (timer + CCTV) para o início nas duas TVs da ala, pronto para
+  dar play no próximo briefing.
+- Registre o **tempo de desarme** da equipe na planilha do placar (ver doc 04).
 
 ## Regras que o desarmador deve saber
 - Ele **não** tem o manual; o salão lê por rádio.

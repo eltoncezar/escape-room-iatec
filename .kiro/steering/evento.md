@@ -113,14 +113,26 @@ Evite escrever "Sala 1" / "Sala 2" sem qualificar: com duas alas isso fica ambí
 - **Reset em 10 min** é a restrição apertada do dia: priorize peças print-in-place e kits
   pré-montados para caber na janela.
 
+## TVs, timer e CCTV
+
+- Cada sala tem **uma TV** que roda um **vídeo de 30 min** com o **timer embutido** + um **loop
+  de CCTV**. Um arquivo só resolve o cronômetro e o puzzle de descoberta da sala.
+- **Timer NÃO sincronizado:** cada GM dá **play no seu vídeo** ao fim do briefing (feito
+  **separadamente em cada salão**). Sem relógio central — simplifica a operação dobrada.
+- **Descobrir a sala faz parte do puzzle (P5):** a equipe acha a **chave** mas **não sabe qual
+  porta**; o CCTV (corredor + clipe do ex-colaborador) revela. É **caminho crítico**. Cada ala
+  tem **seu vídeo**, apontando para a **sua** sala de desarme (B → Calabouço, C → sala do pastor).
+- Detalhes de design em `docs/02` (P5), operação em `docs/03`/`docs/04`, produção em `docs/05`.
+
 ## Placar e premiações
 
 Há **duas premiações independentes**:
 
 - **Premiação 1 — Velocidade (principal):** por **menor tempo** no fim do dia (modo Zen). O
   placar registra a **ala** de cada equipe, mas o ranking é **único/global** (as duas alas
-  competem no mesmo placar). Mantenha a config da bomba e o início do timer **idênticos nas
-  duas alas** para o ranking ser justo.
+  competem no mesmo placar). O timer **não é sincronizado** entre salas; a justiça vem de
+  **todas as equipes começarem no mesmo marco relativo** (play do vídeo no fim do briefing) e de
+  usar o **tempo de desarme** como marca. Mantenha a **config da bomba idêntica** nas duas alas.
 - **Premiação 2 — Cofre (bônus):** meta-jogo opcional com o cofre de dial único. Detalhes,
   regras e os pontos em aberto em `docs/07-meta-jogo-cofre.md`.
 
