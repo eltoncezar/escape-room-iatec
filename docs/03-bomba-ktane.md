@@ -21,12 +21,12 @@ modo relax/treino. Consequência de design que você escolheu de propósito:
 
 ## Configuração recomendada da bomba
 
-| Parâmetro | Valor | Por quê |
-|---|---|---|
-| **Modo** | **Zen** (tempo progressivo, sem explosão) | Definição do evento |
-| **Penalidade por strike** | tempo somado (padrão Zen) | Strike vira custo de tempo, não morte |
-| **Nº de módulos** | **4** | 1 por especialista do manual; 5+ vira caos p/ novatos |
-| **Módulos needy** | **0** | Atenção contínua é punitiva demais para 1ª vez |
+| Parâmetro                 | Valor                                     | Por quê                                               |
+| ------------------------- | ----------------------------------------- | ----------------------------------------------------- |
+| **Modo**                  | **Zen** (tempo progressivo, sem explosão) | Definição do evento                                   |
+| **Penalidade por strike** | tempo somado (padrão Zen)                 | Strike vira custo de tempo, não morte                 |
+| **Nº de módulos**         | **4**                                     | 1 por especialista do manual; 5+ vira caos p/ novatos |
+| **Módulos needy**         | **0**                                     | Atenção contínua é punitiva demais para 1ª vez        |
 
 ### Módulos sugeridos (didáticos, manual claro)
 1. **Wires (Fios)** — o mais intuitivo.
@@ -43,13 +43,16 @@ módulo, **troque a página** correspondente. Destaque com marca-texto para nova
 
 ## TVs — cronômetro espelhado nos dois andares
 
+> Isto vale **por ala**: cada ala tem seu próprio notebook de jogo espelhado nas duas TVs dela
+> (salão + sala de desarme). As duas alas são independentes.
+
 - Ambas as TVs (salão e térreo) mostram **o mesmo cronômetro do jogo** — é o tempo que vale
   para o placar. Isso cria pressão compartilhada mesmo com a equipe separada por andares.
 - Opções de espelhamento (do mais simples ao mais elaborado):
   - **HDMI/cast** da saída do notebook do jogo para as duas TVs (splitter ou transmissor).
   - Uma **captura/stream** simples do timer para as duas telas.
 - **Fase 2 (se sobrar tempo):** trocar o feed por um **vídeo com partes de um puzzle** nas TVs
-  (ex.: um trecho que revela um token do gate ou uma dica da combinação do cofre).
+  (ex.: um trecho que revela um token do gate ou uma dica da combinação da maleta).
 
 ## Como iniciar a bomba junto com a sala
 
@@ -73,6 +76,7 @@ oficial**. Duas formas:
 - Zere/registre o cronômetro (anote o tempo final na planilha do placar — ver doc 04).
 
 ## Regras que o desarmador deve saber
-- Ele **não** tem o manual; a equipe lê por rádio.
+- Ele **não** tem o manual; o salão lê por rádio.
 - Cada erro = **strike** = **+tempo** (não explode). Vale mais ir com calma e confirmar cores.
-- Só ele vê a tela da bomba; a equipe **não** vê a bomba.
+- **Só o desarmador** opera a tela da bomba. O **ajudante** está na mesma sala (cuida de T1,
+  serial e rádio), mas **não** mexe na bomba. O salão **não** vê a bomba.

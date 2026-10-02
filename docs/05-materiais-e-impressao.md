@@ -1,21 +1,33 @@
 # 05 — Materiais, impressão e plaquinhas
 
 ## O que você já tem ✅
-Lanterna UV · impressora · transparências · impressora 3D · mala com combinação · cofre ·
+Lanterna UV · impressora · transparências · impressora 3D · malas com combinação ·
 notebooks (o `SN-4270` + 5–10 na mesa + demais para despistar) · rádios comunicadores ·
-TVs nas duas salas.
+TVs nas duas salas (de cada ala).
+
+> ⚠️ **Operação dobrada (duas alas em paralelo):** quase tudo abaixo precisa ser **duplicado**
+> — **duas malas por ala** (uma para o GATE/P4, uma "maleta de evidências"), dois jogos de rádio
+> (**canais separados por ala**), KTANE pronto nas duas salas de desarme, dois conjuntos de peças
+> impressas e **4 kits de reset** (2 salões + 2 salas de desarme). Idealmente, **valores diferentes
+> por ala** (senha/combinações). Ver steering.
+
+> 🔒 **Cofre fora do fluxo da sala:** temos só **1 cofre** e são **duas alas**, então o cofre
+> **não entra no caminho crítico**. No lugar dele, cada salão usa uma **mala com combinação
+> numérica** (a "maleta de evidências") que guarda a Metade 2 + o Serial e abre com os 4 dígitos
+> vindos do T1 por rádio. O cofre é reaproveitado no **meta-jogo da Premiação 2** — ver
+> `07-meta-jogo-cofre.md` (materiais do meta-jogo detalhados lá).
 
 ## O que providenciar 🛒
-| Item | Uso | Obs. |
-|---|---|---|
-| **Caneta/tinta UV** | Metade 1 (P1) e trechos do T1 | Testar com a lanterna antes |
-| Cópias do **manual KTANE** (dos 4 módulos) | P2 + clímax | Baixar PDF oficial, imprimir e destacar |
-| Marca-textos | Destacar seções do manual | Reduz sobrecarga p/ novatos |
-| **Adesivos de serial** p/ notebooks | T2 (achar o certo) | Padronizar; só 1 = `SN-4270` |
-| Baterias/pilhas sobressalentes | Rádios + lanterna UV | Rodando o dia todo |
-| Envelopes lacrados | Esconder páginas do manual (P2) | Facilita reset |
-| **HDMI splitter / transmissor de vídeo** | Espelhar timer nas 2 TVs | Ver doc 03 |
-| Fita/velcro | Fixar/esconder pistas | Facilita reset |
+| Item                                       | Uso                             | Obs.                                    |
+| ------------------------------------------ | ------------------------------- | --------------------------------------- |
+| **Caneta/tinta UV**                        | Metade 1 (P1) e trechos do T1   | Testar com a lanterna antes             |
+| Cópias do **manual KTANE** (dos 4 módulos) | P2 + clímax                     | Baixar PDF oficial, imprimir e destacar |
+| Marca-textos                               | Destacar seções do manual       | Reduz sobrecarga p/ novatos             |
+| **Adesivos de serial** p/ notebooks        | T2 (achar o certo)              | Padronizar; só 1 = `SN-4270`            |
+| Baterias/pilhas sobressalentes             | Rádios + lanterna UV            | Rodando o dia todo                      |
+| Envelopes lacrados                         | Esconder páginas do manual (P2) | Facilita reset                          |
+| **HDMI splitter / transmissor de vídeo**   | Espelhar timer nas 2 TVs        | Ver doc 03                              |
+| Fita/velcro                                | Fixar/esconder pistas           | Facilita reset                          |
 
 ## O que imprimir (com o conteúdo)
 
@@ -36,10 +48,11 @@ TVs nas duas salas.
 - Pôster: `◆`=4 · `▲`=8 · `■`=2 · 4ª posição fixa =6 · ordem `◆ ▲ ■ (fixo)` → mala **4826**
 - Bilhete na mala: *"Desça. Você vai precisar de silêncio e de um bom rádio."*
 
-### Salão — conteúdo do COFRE
+### Salão — conteúdo da MALETA DE EVIDÊNCIAS (ex-cofre)
 - Cartão: **`METADE 2: 42QK`**
 - Cartão: **`SERIAL COMPLETO: SN-4270`**
 - Bilhete: *"Juntem as metades e passem tudo ao desarmador."*
+- (A maleta é uma **mala com combinação de 4 dígitos**; a combinação vem do T1 por rádio = **7315**)
 
 ### Salão — B1 "Preparação do manual" (trilha paralela)
 - Cartaz-guia: *"Antes de a bomba armar: organizem o manual e escolham quem cuida de cada módulo."*
@@ -52,7 +65,7 @@ TVs nas duas salas.
 - Recompensa: **−90s** no tempo **ou** **1 dica grátis** (equipe escolhe)
 
 ### Térreo — T1 "Diagnóstico"
-- Cartaz com a regra + tabela/cifra → combinação do cofre **7315**
+- Cartaz com a regra + tabela/cifra → combinação da maleta **7315**
 - Etiquetas de manutenção nos notebooks (datas/status) coerentes com a regra
 - (Opcional) trecho em UV ou transparência
 
@@ -93,9 +106,15 @@ Reset = fechar a caixa de novo.
 **Cadeado de combinação impresso (alternativa a comprar mais malas)**
 - [Combination Padlock v2 funcional — Printables](https://www.printables.com/model/682893-combination-padlock-v2)
 
+> 💡 **Útil agora:** com o cofre fora do fluxo da sala, cada salão precisa de **duas malas** (GATE + maleta
+> de evidências). Se faltar uma caixa com combinação, um **cadeado impresso** fechando uma caixa
+> opaca, ou um **cryptex/puzzle box** de 4 dígitos, serve de "maleta de evidências" guardando os
+> cartões Metade 2 + Serial.
+
 **Ideias de uso no fluxo (só sugestão, nada decidido):**
 - Cryptex guardando a **metade 1 da senha** (evolui o P1: descobrir a palavra → abrir → achar `RX7-`).
-- Puzzle box guardando a **chave da Sala 2** (evolui o P4/GATE: 3 tokens ↔ 3 movimentos da caixa).
+- Puzzle box guardando a **chave da sala de desarme** (evolui o P4/GATE: 3 tokens ↔ 3 movimentos da caixa).
+- Caixa com combinação 3D servindo de **maleta de evidências** (substituta direta do ex-cofre).
 
 > ⚠️ **Calibração:** peças mecânicas print-in-place podem precisar de ajuste de tolerância/folga
 > para girar/deslizar liso. **Imprima 1 protótipo cedo e teste** antes de contar com a peça no
@@ -111,7 +130,7 @@ Imprima em papel firme (ou corte em MDF/3D com haste). Sugestões — misture s�
 - "DESARMEI E NÃO SUEI (menti) 💦"
 - "SOBREVIVI AO ESCAPE ROOM DA IATEC"
 - "TIME [___] — TEMPO: ______"  ← lousa/espaço para escrever o tempo do placar
-- "PERGUNTE-ME COMO ABRIR UM COFRE 🔐"
+- "PERGUNTE-ME COMO ARROMBAR UMA MALA 🔐"
 - "EU SÓ FALEI NO RÁDIO 📻"
 - "BOMBA? QUE BOMBA? 💣"
 - "MVP DO DESARME 🏆"
@@ -119,7 +138,11 @@ Imprima em papel firme (ou corte em MDF/3D com haste). Sugestões — misture s�
 > Dica: uma plaquinha com **espaço em branco** para escrever o **tempo** vira recordação do
 > placar e incentiva a competição entre equipes ao longo do dia.
 
-## Kit de reset (1 por sala, pré-montado)
+## Kit de reset (1 por sala, pré-montado — **4 no total**: 2 salões + 2 salas de desarme)
 - Sacos etiquetados por puzzle com cartões/transparências/páginas
 - Caneta UV para retoque
-- Lista de combinações (só GM): mala **4826** · cofre **7315** · senha **`RX7-42QK`** · serial **`SN-4270`** · B2 **`SIMON`**
+- Lista de combinações (só GM): mala do GATE **4826** · maleta de evidências **7315** · senha **`RX7-42QK`** · serial **`SN-4270`** · B2 **`SIMON`**
+
+> Com **10 min de reset** entre slots, o kit precisa estar **pronto para repor**, não para
+> remontar. Se usar **valores diferentes por ala**, mantenha uma lista de combinações por ala
+> (não misture os papéis da Ala B com os da Ala C).

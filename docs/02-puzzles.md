@@ -2,15 +2,15 @@
 
 > ⚠️ **Página de spoilers — só o Game Master.** Nível médio/difícil com rampas para novatos.
 > Valores (senhas, combinações, serial) são **exemplos prontos** — troque antes de operar.
-> Materiais usados: **lanterna UV, impressora, transparências, impressora 3D, mala com
-> combinação, cofre, notebooks, rádios, TVs**.
+> Materiais usados: **lanterna UV, impressora, transparências, impressora 3D, malas com
+> combinação (GATE + maleta de evidências), notebooks, rádios, TVs**.
 
 ---
 
-## SALA 1 — SALÃO (2º andar) — 4 puzzles paralelos
+## SALÃO (2º andar) — 4 puzzles paralelos
 
 Os **3 primeiros** são **gates**: cada um produz um resultado; os três juntos abrem o
-**Puzzle 4**, que dá a **chave física da Sala 2**.
+**Puzzle 4**, que dá a **chave física da sala de desarme**.
 
 ### 🧩 P1 — "Guarde isto" → METADE 1 da senha
 **Objetivo:** achar cedo a **metade 1** da senha do notebook, **sem** saber ainda pra que serve.
@@ -49,33 +49,41 @@ e um token.
   **`SN-••7•`** (só 1 dígito visível; os `•` são desconhecidos) e o token `■`.
 - Esconda as transparências em locais diferentes do salão.
 
-**Solução:** máscara = **`SN-••7•`**; token do gate = `■`. *(O serial completo vem só do cofre.)*
+**Solução:** máscara = **`SN-••7•`**; token do gate = `■`. *(O serial completo vem só da maleta de evidências.)*
 
-**Para que serve a máscara:** no térreo, ajuda o desarmador a **eliminar** notebooks cujo
+**Para que serve a máscara:** no térreo, ajuda a dupla do desarme a **eliminar** notebooks cujo
 serial não bate com o dígito conhecido — acelera quando o serial completo chegar.
 
 ---
 
-### 🧩 P4 — "O GATE" → CHAVE da Sala 2
+### 🧩 P4 — "O GATE" → CHAVE da sala de desarme
 **Objetivo:** combinar os 3 tokens (`◆ ▲ ■`) para abrir a **mala com combinação numérica**
-que guarda a **chave física** da Sala 2.
+que guarda a **chave física** da sala de desarme.
 
 **Montagem:**
 - Um **painel/pôster** no salão mapeia cada token a um dígito e define a ordem:
   - `◆` = 4 · `▲` = 8 · `■` = 2 · e uma 4ª posição fixa impressa no painel = 6
 - Ordem impressa no painel: `◆ ▲ ■ (fixo)` → combinação da mala = **4826**.
-- Dentro da mala: **chave física da Sala 2** + bilhete: *"Desça. Você vai precisar de silêncio
+- Dentro da mala: **chave física da sala de desarme** + bilhete: *"Desça. Você vai precisar de silêncio
   e de um bom rádio."* (e, se quiser, a lanterna UV do P1).
 
-**Solução:** mala = **4826** → chave da Sala 2.
+**Solução:** mala = **4826** → chave da sala de desarme.
 
 **Por que é o gate:** sem os 3 tokens a equipe não sabe a combinação → obriga terminar P1+P2+P3.
 
 ---
 
-### 🔐 COFRE (no salão) → METADE 2 + SERIAL completo
-- **Combinação do cofre vem da Sala 2** (o desarmador dita por rádio). Ver puzzles do térreo.
-- **Dentro do cofre:**
+### 🔐 MALETA DE EVIDÊNCIAS (no salão) → METADE 2 + SERIAL completo
+
+> **Por que não um cofre:** há só **1 cofre** e operamos **duas alas** em paralelo, então o
+> cofre **saiu do caminho crítico** (ele é reaproveitado no meta-jogo da Premiação 2 — ver
+> `07-meta-jogo-cofre.md`). No lugar dele aqui, use uma **mala com combinação numérica** (a
+> "maleta de evidências") no salão. A mecânica é idêntica — o que importa é guardar os dois
+> cartões e **abrir com 4 dígitos vindos do térreo por rádio**. Cada salão usa, portanto, **duas malas**:
+> uma para o GATE (P4) e esta.
+
+- **Combinação da maleta vem da sala de desarme** (a dupla do térreo dita por rádio). Ver puzzles do térreo.
+- **Dentro da maleta:**
   - Cartão: **`METADE 2: 42QK`**
   - Cartão: **`SERIAL COMPLETO: SN-4270`** (bate com a máscara `SN-••7•` do P3)
   - Bilhete: *"Juntem as metades e passem tudo ao desarmador. O relógio não perdoa lentidão."*
@@ -86,8 +94,8 @@ que guarda a **chave física** da Sala 2.
 
 ## Trilhas paralelas (anti-ociosidade) — feitas no salão durante o T1
 
-Estas duas trilhas ocupam os 4 do salão enquanto o desarmador decifra a combinação do cofre.
-**Nenhuma está no caminho crítico** — não travam chave, cofre nem senha.
+Estas duas trilhas ocupam os 4 do salão enquanto a dupla do térreo decifra a combinação da maleta.
+**Nenhuma está no caminho crítico** — não travam chave, maleta nem senha.
 
 ### 🧩 B1 — "Preparação do manual" (sempre presente)
 **Objetivo:** transformar as páginas soltas do P2 em um manual **pronto para o clímax**.
@@ -102,7 +110,7 @@ Estas duas trilhas ocupam os 4 do salão enquanto o desarmador decifra a combina
 **"Solução":** manual ordenado + 1 especialista por módulo definido. Não gera código —
 gera **prontidão** (encurta o desarme, o que melhora o tempo no placar).
 
-**Por que funciona:** trabalho útil e paralelo; não depende do cofre nem do térreo.
+**Por que funciona:** trabalho útil e paralelo; não depende da maleta nem do térreo.
 
 ---
 
@@ -135,10 +143,13 @@ só aplicar. Assim é "médio" sem virar frustrante.
 
 ---
 
-## SALA 2 — REUNIÃO (térreo) — desarmador sozinho
+## SALA DE DESARME (térreo) — desarmador + ajudante
 
-### 🧩 T1 — "Diagnóstico" → COMBINAÇÃO DO COFRE (ditada por rádio ao salão)
-**Objetivo:** o desarmador deduz os 4 dígitos da combinação do cofre lá de cima.
+> A dupla do térreo divide o trabalho: o **ajudante** toca o T1 e cruza o serial (T2); o
+> **desarmador** opera o notebook/bomba. Ver papéis em `01-fluxo-e-mapa.md`.
+
+### 🧩 T1 — "Diagnóstico" → COMBINAÇÃO DA MALETA (ditada por rádio ao salão)
+**Objetivo:** a dupla do térreo deduz os 4 dígitos da combinação da maleta de evidências lá de cima.
 
 **Montagem (escolha 1–2 técnicas, nível médio/difícil):**
 - **Etiquetas de manutenção** nos notebooks com "datas de serviço" e "status"; um cartaz na
@@ -146,16 +157,16 @@ só aplicar. Assim é "médio" sem virar frustrante.
 - **Cifra/tabela** impressa que converte um código do cartaz em 4 dígitos.
 - (Opcional) parte revelada com **lanterna UV** ou **transparência** (você as tem).
 
-**Solução (exemplo):** combinação do cofre = **7315** → desarmador dita por rádio.
+**Solução (exemplo):** combinação da maleta = **7315** → a dupla dita por rádio.
 
-> O desarmador **não** abre o cofre (o cofre está no salão). Ele só **descobre e transmite**
+> A dupla **não** abre a maleta (ela está no salão). A dupla só **descobre e transmite**
 > a combinação. Quem abre é a equipe. Isso é o núcleo da dependência por rádio.
 
 ### 🖥️ T2 — "O notebook certo" (achado com o SERIAL)
-- Depois que o cofre é aberto no salão, a equipe dita **`SERIAL: SN-4270`** por rádio.
+- Depois que a maleta é aberta no salão, a equipe dita **`SERIAL: SN-4270`** por rádio.
 - Os notebooks da mesa estão **adesivados com seriais** visíveis (5–10 na mesa; só 1 = `SN-4270`).
 - A **máscara** `SN-••7•` (P3) já tinha ajudado a eliminar candidatos.
-- Desarmador acha o `SN-4270`, digita **`RX7-42QK`** → **a bomba (Zen) arma**.
+- A dupla acha o `SN-4270`; o desarmador digita **`RX7-42QK`** → **a bomba (Zen) arma**.
 
 > Os outros notebooks ficam na **tela de senha** para despistar; a senha `RX7-42QK` **só
 > funciona no `SN-4270`**.
@@ -164,17 +175,17 @@ só aplicar. Assim é "médio" sem virar frustrante.
 
 ## Cola de soluções (rápida — GM)
 
-| Etapa | Valor |
-|---|---|
-| P1 — Metade 1 (UV) | **`RX7-`** · token `◆` |
-| P2 — Manual em pedaços | páginas ordenadas · token `▲` |
-| P3 — Máscara do serial | **`SN-••7•`** · token `■` |
-| P4 — GATE → mala | **4826** → chave da Sala 2 |
-| B1 — Preparação do manual | manual ordenado + especialistas (sem código) |
-| B2 — Protocolo (opcional) | cifra → **`SIMON`** → **−90s** ou **1 dica grátis** |
-| T1 — Diagnóstico (térreo) | combinação do cofre = **7315** |
-| Cofre (salão) | Metade 2 = **`42QK`** · Serial = **`SN-4270`** |
-| **Senha do notebook** | **`RX7-42QK`** (só no `SN-4270`) |
+| Etapa                        | Valor                                               |
+| ---------------------------- | --------------------------------------------------- |
+| P1 — Metade 1 (UV)           | **`RX7-`** · token `◆`                              |
+| P2 — Manual em pedaços       | páginas ordenadas · token `▲`                       |
+| P3 — Máscara do serial       | **`SN-••7•`** · token `■`                           |
+| P4 — GATE → mala             | **4826** → chave da sala de desarme                 |
+| B1 — Preparação do manual    | manual ordenado + especialistas (sem código)        |
+| B2 — Protocolo (opcional)    | cifra → **`SIMON`** → **−90s** ou **1 dica grátis** |
+| T1 — Diagnóstico (térreo)    | combinação da maleta = **7315**                     |
+| Maleta de evidências (salão) | Metade 2 = **`42QK`** · Serial = **`SN-4270`**      |
+| **Senha do notebook**        | **`RX7-42QK`** (só no `SN-4270`)                    |
 
 ## Peças opcionais em impressora 3D
 - **Suporte temático** para o notebook certo (visual de "bomba") — ajuda a destacá-lo pro GM.
